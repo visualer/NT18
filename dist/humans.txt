@@ -1,0 +1,21 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Sida Sun (PKU CCME) -- Independent Developer -- Twitter@Artifixial0306, Accel@pku.edu.cn
+
+# THANKS
+
+    pku.edu.cn (by element inspecting rather than direct provision of source code) for header style
+
+# TECHNOLOGY COLOPHON
+
+    HTML5 Boilerplate (H5BP)
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css, RequireJS, RequireJS plugin (async)
+
+    Baidu Map Javascript API
+
+
