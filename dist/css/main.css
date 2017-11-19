@@ -95,8 +95,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-
 html, body {
     margin: 0;
     height: 100%;
@@ -132,7 +130,6 @@ header {
     height: 0;
     visibility: hidden;
 }
-
 
 nav {
     margin: auto;
@@ -179,16 +176,18 @@ nav ul li {
     font-size: 20px;
     padding: 0;
 }
+
 .subNav {
     height: 48px;
     line-height: 48px;
 }
+
 nav ul li:hover {
     cursor: pointer;
     transition: background-color ease 0.3s;
-    -moz-transition:background-color ease 0.3s;
-    -webkit-transition:background-color ease 0.3s;
-    -o-transition:background-color ease 0.3s;
+    -moz-transition: background-color ease 0.3s;
+    -webkit-transition: background-color ease 0.3s;
+    -o-transition: background-color ease 0.3s;
     background: #94070a;
     color: #fff;
 }
@@ -208,7 +207,6 @@ nav ul li a {
     text-decoration: none;
     font-size: 16px;
 }
-
 
 nav ul ul {
     width: auto;
@@ -230,10 +228,10 @@ nav ul ul li {
 .FirstMenuElem {
     border-top: 1px #94070a solid;
 }
+
 .LastMenuElem {
     border-bottom: 1px #94070a solid;
 }
-
 
 aside {
     font-family: Arial, serif;
@@ -259,7 +257,6 @@ aside #newsHeader div {
     bottom: 20px;
 }
 
-
 aside #newsBlock {
     width: 260px;
     height: 130px;
@@ -267,7 +264,6 @@ aside #newsBlock {
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     overflow-y: auto;
 }
-
 
 aside #newsBlock ul {
     list-style: none;
@@ -280,7 +276,6 @@ aside #newsBlock ul {
 aside #newsBlock ul li {
     border-top: 1px dotted #cccccc;
 }
-
 
 aside #newsBlock ul li a {
     color: #444444;
@@ -309,17 +304,15 @@ aside #asideNav li {
     background: #ffffff;
 }
 
-
-
 aside #asideNav li:not(.noReaction):hover {
     transition: background-color ease 0.3s;
-    -moz-transition:background-color ease 0.3s;
-    -webkit-transition:background-color ease 0.3s;
-    -o-transition:background-color ease 0.3s;
+    -moz-transition: background-color ease 0.3s;
+    -webkit-transition: background-color ease 0.3s;
+    -o-transition: background-color ease 0.3s;
     background: #94070a;
 }
 
-aside #asideNav li a, .copyrightBlock{
+aside #asideNav li a, .copyrightBlock {
     display: block;
     padding: 15px;
     color: #444;
@@ -327,10 +320,9 @@ aside #asideNav li a, .copyrightBlock{
     font-size: 20px;
 }
 
-aside #asideNav li:not(.noReaction):hover >a {
+aside #asideNav li:not(.noReaction):hover > a {
     color: #fff;
 }
-
 
 article {
     position: absolute;
@@ -346,32 +338,38 @@ article {
 article h1 {
     font-size: 40px;
 }
+
 article h2 {
     font-size: 30px;
 }
+
 article h3 {
     font-size: 24px;
 }
+
 article h4 {
     font-size: 22px;
     font-weight: 500;
     line-height: 1.2em;
 }
+
 article p {
     font-size: 18px;
 }
+
 article .note {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 /*templates*/
 
 .slider {
-    margin:0 auto;
-    text-align:center;
+    margin: 0 auto;
+    text-align: center;
     position: relative;
-    overflow:hidden;
+    overflow: hidden;
     z-index: 0;
+    box-shadow: 2px 2px 2px #777777;
 }
 
 .slider ul:hover {
@@ -387,15 +385,33 @@ article .note {
 
 .slider ul {
     list-style: none;
-    float:left;
+    float: left;
     padding: 0;
     margin: 0;
     position: absolute;
 }
 
 #loadCommittee table tr td {
-    width: 300px;
+    width: 200px;
     font-size: 18px;
+}
+
+.keyNote {
+    border-collapse: separate;
+    border-spacing: 10px 20px;
+}
+
+.keyNote a {
+    text-decoration: none;
+}
+
+.keyNote tr td {
+    width: 300px;
+    font-size: 22px;
+}
+
+.keyNote tr td img {
+    box-shadow: 2px 2px 2px #777777;
 }
 
 /* ==========================================================================

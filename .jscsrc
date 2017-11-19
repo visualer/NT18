@@ -63,6 +63,5 @@
     "requireSpacesInsideObjectBrackets": "allButNested",
     "validateIndentation": 4,
     "validateLineBreaks": "LF",
-    "validateParameterSeparator": ", ",
-    "validateQuoteMarks": "'"
+    "validateParameterSeparator": ", "
 }
