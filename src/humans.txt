@@ -4,6 +4,9 @@
 # TEAM
 
     Sida Sun (PKU CCME) -- Independent Developer -- Twitter@Artifixial0306, Accel@pku.edu.cn
+    Ruoming Li (PKU CCME) -- Atelier of Stardust -- lotusmemory@qq.com, lxwk1spectre@pku.edu.cn
+	https://space.bilibili.com/1441752/  
+	http://www.chem.pku.edu.cn/page/liy/spectre/
 
 # THANKS
 
@@ -17,5 +20,6 @@
     Apache Server Configs, jQuery, Modernizr, Normalize.css, RequireJS, RequireJS plugin (async)
 
     Baidu Map Javascript API
+    Adobe Photoshop, Dream Waever
 
 

@@ -110,7 +110,11 @@
 				<ul>
 					<!-- TODO: add news here-->
 					<li>
-						<a>
+						<a href="#?load=Index" onclick="loadData(1, 'loadIndex');">
+						&bull; &nbsp;<b>2017/11/14</b> &nbsp;keynote Speakers updated.</a>
+					</li>
+					<li>
+						<a href="#?load=ParallelSymposia" onclick="loadData(1, 'loadParallelSymposia');">
 						&bull; &nbsp;<b>2017/11/06</b> &nbsp;parallel symposia updated.</a>
 					</li>
 					<li>
@@ -170,20 +174,14 @@
 				<li>
 					<a href="#?load=Contact" onclick="loadData(1, 'loadContact');">Contact Us</a>
 				</li>
-				<li class="noReaction" style="padding-top: 20px">
-				<table width="200" border="0" cellspacing="100">
-					<tbody>
-					 <tr>
-						<td><a href="flyer.pdf" target="_blank" style="color:#ff2c00">[<u>Flyer</u>]</a></td>
-						<td><a href="FlyerMerge.pdf" target="_blank" style="color:#ff2c00">[<u>Merged</u>]</a></td>
-					</tr>
-				  </tbody>
-				</table>
+				<li class="noReaction" style="padding-top: 20px">			
+					<a href="flyer.pdf" target="_blank" style="color:#ff2c00">[<u>Conference Flyer</u>]</a>			
 				</li>
 				</li>
 			</ul>
 			<div class="copyrightBlock" style="padding-top:100px; font-size:14px;">
-				Website is developed by <a href="//github.com/visualer" target="_blank">Sida Sun</a>.
+				Website is developed by <a href="//github.com/visualer" target="_blank">Sida Sun</a> and 
+				<a href="https://github.com/FPTStardust">Ruoming Li</a>.
 				<a href="humans.txt" target="_blank">Humans.txt</a>
 			</div>
 		</aside>
@@ -226,6 +224,84 @@
 			<script>
 				scroll_main(700, 11);
 			</script>
+			<h2>
+				Keynote Speakers:
+			</h2>
+			<table width="500" border="0" cellspacing="100">
+			  <tbody>
+				<tr>
+				  <td><a href="http://www.cognet-research.com/about-lc.html"><img src="img/KeynoteReport/Laurent.jpg" alt="Laurent Cognet" /></a></td>
+				  <td>
+				  <div style="font-size: 20px">
+					<a href="http://www.cognet-research.com/about-lc.html"><strong style="font-size:24px">Laurent Cognet</strong></a><br>
+					Institut d’Optique, CNRS, Univ. Bordeaux, France<br>
+					France<br>
+					</div>
+					</td>
+				</tr>
+				<tr>
+				  <td>&nbsp;</td>
+				  <td>&nbsp;</td>
+				</tr>
+				<tr>
+				  <td><a href="https://scholar.harvard.edu/philipkim"><img src="img/KeynoteReport/PhilipKim.jpg" alt="Philip Kim" /></a></td>
+				  <td>
+				  <div style="font-size: 20px">
+					<a href="https://scholar.harvard.edu/philipkim"><strong style="font-size:24px">Philip Kim</strong></a><br>
+					Harvard University<br>
+					USA<br>
+					</div>
+					</td>
+				</tr>
+				<tr>
+				  <td>&nbsp;</td>
+				  <td>&nbsp;</td>
+				</tr>
+				<tr>
+				  <td><a href="http://www.nano.cnr.it/?mod=peo&id=174"><img src="img/KeynoteReport/ElisaReinford.jpg" alt="
+			Elisa Molinari" /></a></td>
+				  <td>
+				  <div style="font-size: 20px">
+					<a href="http://www.nano.cnr.it/?mod=peo&id=174"><strong style="font-size:24px">
+					Elisa Molinari</strong></a><br>
+					University of Modena <br>and Reggio Emilia<br>
+					Italy<br>
+					</div>
+					</td>
+				</tr>
+				<tr>
+				  <td>&nbsp;</td>
+				  <td>&nbsp;</td>
+				</tr>
+				<tr>
+				  <td><a href="http://www.mpip-mainz.mpg.de/4594777/synthetische-chemie"><img src="img/KeynoteReport/Klaus Mullen.jpg" alt="
+			Klaus Müllen" /></a></td>
+				  <td>
+				  <div style="font-size: 20px">
+					<a href="http://www.mpip-mainz.mpg.de/4594777/synthetische-chemie"><strong style="font-size:24px">
+					Klaus Müllen</strong></a><br>
+					Max Planck Institute <br>for Polymer Research<br>
+					Germany<br>
+					</div>
+					</td>
+				</tr>
+				<tr>
+				  <td>&nbsp;</td>
+				  <td>&nbsp;</td>
+				</tr>
+				<tr>
+				  <td><a href="http://nano.pku.edu.cn/StaffHome.aspx?person=1"><img src="img/KeynoteReport/LianmaoPeng.jpg" alt="Lianmao Peng" /></a></td>
+				  <td>
+				  <div style="font-size: 20px">
+					<a href="http://nano.pku.edu.cn/StaffHome.aspx?person=1"><strong style="font-size:24px">Lianmao Peng</strong></a><br>
+					Peking University<br>
+					China<br>
+					</div>
+					</td>
+				</tr>
+			  </tbody>
+			</table>
+
 		</textarea>
 
 		<!--loadVenue-->
@@ -282,6 +358,85 @@
 		</textarea>
 
 		<!--loadSciProg-->
+		<textarea id="loadSciProg" style="display: none;">
+			<h2>
+				Keynote Report
+			</h2>
+			<table width="500" border="0" cellspacing="100">
+			  <tbody>
+				<tr>
+				  <td><a href="http://www.cognet-research.com/about-lc.html"><img src="img/KeynoteReport/Laurent.jpg" alt="Laurent Cognet" /></a></td>
+				  <td>
+				  <div style="font-size: 20px">
+					<a href="http://www.cognet-research.com/about-lc.html"><strong style="font-size:24px">Laurent Cognet</strong></a><br>
+					Institut d'Optique, CNRS<br>
+					France<br>
+					</div>
+					</td>
+				</tr>
+				<tr>
+				  <td>&nbsp;</td>
+				  <td>&nbsp;</td>
+				</tr>
+				<tr>
+				  <td><a href="https://scholar.harvard.edu/philipkim"><img src="img/KeynoteReport/PhilipKim.jpg" alt="Philip Kim" /></a></td>
+				  <td>
+				  <div style="font-size: 20px">
+					<a href="https://scholar.harvard.edu/philipkim"><strong style="font-size:24px">Philip Kim</strong></a><br>
+					Harvard University<br>
+					USA<br>
+					</div>
+					</td>
+				</tr>
+				<tr>
+				  <td>&nbsp;</td>
+				  <td>&nbsp;</td>
+				</tr>
+				<tr>
+				  <td><a href="http://www.nano.cnr.it/?mod=peo&id=174"><img src="img/KeynoteReport/ElisaReinford.jpg" alt="
+			Elisa Molinari" /></a></td>
+				  <td>
+				  <div style="font-size: 20px">
+					<a href="http://www.nano.cnr.it/?mod=peo&id=174"><strong style="font-size:24px">
+					Elisa Molinari</strong></a><br>
+					Univ. Modena Reggio Emilia <br>
+					Italy<br>
+					</div>
+					</td>
+				</tr>
+				<tr>
+				  <td>&nbsp;</td>
+				  <td>&nbsp;</td>
+				</tr>
+				<tr>
+				  <td><a href="http://www.mpip-mainz.mpg.de/4594777/synthetische-chemie"><img src="img/KeynoteReport/Klaus Müllen.jpg" alt="
+			Klaus Müllen" /></a></td>
+				  <td>
+				  <div style="font-size: 20px">
+					<a href="http://www.mpip-mainz.mpg.de/4594777/synthetische-chemie"><strong style="font-size:24px">
+					Klaus Müllen</strong></a><br>
+					Max Planck Inst. Poly. Res.<br>
+					Germany<br>
+					</div>
+					</td>
+				</tr>
+				<tr>
+				  <td>&nbsp;</td>
+				  <td>&nbsp;</td>
+				</tr>
+				<tr>
+				  <td><a href="http://nano.pku.edu.cn/StaffHome.aspx?person=1"><img src="img/KeynoteReport/LianmaoPeng.jpg" alt="Lianmao Peng" /></a></td>
+				  <td>
+				  <div style="font-size: 20px">
+					<a href="http://nano.pku.edu.cn/StaffHome.aspx?person=1"><strong style="font-size:24px">Lianmao Peng</strong></a><br>
+					Peking University<br>
+					China<br>
+					</div>
+					</td>
+				</tr>
+			  </tbody>
+			</table>
+		</textarea>
 		<!--loadSocProg-->
 		<textarea id="loadSocProg" style="display: none;">
 			<h2>
@@ -289,9 +444,9 @@
 			</h2>
 			<ul style="font-size: 20px;">
 				<li>
-				The Forbidden City was the Chinese imperial palace from the Ming dynasty to the end of the Qing dynasty—the years 1420 to 1912. It is in the center of Beijing, China, and now houses the Palace Museum. It served as the home of emperors and their households as well as the ceremonial and political center of Chinese government for almost 500 years.<br />
-				Constructed from 1406 to 1420, the complex consists of 980 buildings and covers 72 ha (over 180 acres). The palace complex exemplifies traditional Chinese palatial architecture, and has influenced cultural and architectural developments in East Asia and elsewhere. The Forbidden City was declared a World Heritage Site in 1987, and is listed by UNESCO as the largest collection of preserved ancient wooden structures in the world.<br />
-				Since 1925 the Forbidden City has been under the charge of the Palace Museum, whose extensive collection of artwork and artefacts were built upon the imperial collections of the Ming and Qing dynasties. Part of the museum's former collection is now in the National Palace Museum in Taipei. Both museums descend from the same institution, but were split after the Chinese Civil War. Since 2012, the Forbidden City has seen an average of 15 million visitors annually, and had 16 millions visitors in 2016.<br />
+				The Forbidden City was the Chinese imperial palace from the Ming dynasty to the end of the Qing dynasty—the years 1420 to 1912. It is in the center of Beijing, China, and now houses the Palace Museum. It served as the home of emperors and their households as well as the ceremonial and political center of Chinese government for almost 500 years.<br>
+				Constructed from 1406 to 1420, the complex consists of 980 buildings and covers 72 ha (over 180 acres). The palace complex exemplifies traditional Chinese palatial architecture, and has influenced cultural and architectural developments in East Asia and elsewhere. The Forbidden City was declared a World Heritage Site in 1987, and is listed by UNESCO as the largest collection of preserved ancient wooden structures in the world.<br>
+				Since 1925 the Forbidden City has been under the charge of the Palace Museum, whose extensive collection of artwork and artefacts were built upon the imperial collections of the Ming and Qing dynasties. Part of the museum's former collection is now in the National Palace Museum in Taipei. Both museums descend from the same institution, but were split after the Chinese Civil War. Since 2012, the Forbidden City has seen an average of 15 million visitors annually, and had 16 millions visitors in 2016.<br>
 				</li>
 
 					<img src="img\SocialProgram\Gugong.jpg"  alt="Forbidden City" />
@@ -304,16 +459,16 @@
 			<ul style="font-size: 20px;">
 				<li>
 				The National Museum of China (NMC) is located at the east side of Tiananmen Square, opposite the Great Hall of the People. It was founded in February 2003, based on the merging of two previous museums, namely the National Museum of Chinese History and the National Museum of Chinese Revolution. NMC, an integrated national museum under the Ministry of Culture of China, draws equally from both history and art and is dedicated to its collections, exhibitions, research, archeology, public education and cultural communication. Its basic functions are collections of cultural relics and artworks, exhibitions, public education, history and art research and cultural communication.
-				<br />
+				<br>
 				The predecessor of the Museum of Chinese History was the Preparatory Office of the Museum of Chinese History, founded on July 9, 1912. Upon the founding of the People's Republic of China on Oct 1st , 1949, the museum was renamed the Beijing Museum of History, only to be renamed once again as the National Museum of Chinese History in 1959. The predecessor of the Museum of Chinese Revolution was the Preparatory Office of the National Revolution Museum, which was founded in March, 1950 and was given its current name ten years later. In August 1959, with the completion of a new building on the east side of Tiananmen Square, and this housed both museums; it was acclaimed as one of the Ten Great Constructions built to celebrate the tenth anniversary of the People’s Republic of China. On Oct 1st of that same year, the two museums opened to the public.
-				<br />
+				<br>
 				We hold leading within China, first-class externally as our main objective, people foremost as a principle of development, honest to reality, close to life, friendly to the people as a value, and talent, collection, academics and services as the key points in running the museum. It is of great importance to preserve, inherit, display, and develop the magnificent Chinese culture. Meanwhile, as the most important cultural and art institution in China, NMC not only displays China’s outstanding civilization achievements, but also those of other parts of the world.
-				<br />
+				<br>
 				To support the public cultural service system and satisfy the learning needs of the community, we strive to promote the historical and cultural knowledge of the general public, in particular young people, while working to nurture civilization and facilitate life-long learning in the cultural sphere and in the classroom.
-				<br />
+				<br>
 				NMC plays an important role in displaying Chinese culture, cultivating national spirit; as such it is a world leader amongst museums in developing the field of cultural relics.
-				<br />
-				From March, 2007 to December, 2010, NMC carried out a project to expand the museum so that it now covers 192,000 square meters. Today NMC is the largest museum in the world, with first class facilities and capabilities. With more than forty halls, we have exhibitions of Ancient China and The Road to Rejuvenation on regular display and more than a dozen categories of display related to special exhibitions and international exchange exhibitions. Not only has the museum amassed five thousand years of Chinese art and cultural heritage, the museum itself attests to the long road to revival and provides high-quality exhibitions which reflect the fruits of this world civilization.<br />
+				<br>
+				From March, 2007 to December, 2010, NMC carried out a project to expand the museum so that it now covers 192,000 square meters. Today NMC is the largest museum in the world, with first class facilities and capabilities. With more than forty halls, we have exhibitions of Ancient China and The Road to Rejuvenation on regular display and more than a dozen categories of display related to special exhibitions and international exchange exhibitions. Not only has the museum amassed five thousand years of Chinese art and cultural heritage, the museum itself attests to the long road to revival and provides high-quality exhibitions which reflect the fruits of this world civilization.<br>
 				</li>
 				<img src="img\SocialProgram\Guobo.jpg"  alt="The National Museum of China" />
 				<li><a href="http://en.chnmuseum.cn/">Click here to learn more.</a></li>
@@ -337,10 +492,11 @@
 
 			</h2>
 				<ul style="font-size: 20px;">
-				   <li>Chief Organizer: Yoshiyuki Miyamoto</li>
+				   
 					<li>Recent significant progress of experimental technique enables us to form low-dimensional materials, such as nanotube, nanoribbon, non-carbon 2D-sheets, and their composites in precise control of their nano-structures, such as chirality, thickness, widths, layer stacking sequences, and so on. Theoretical works to predict new structures/properties, to understand formation mechanisms as well as measured data, have become indispensable to accelerate the speed of research and developments. I believe that the series of Computational Challenges and Tools for Nanotubes (CCTN), since 2005 at Nagano, is one of world leading theory symposia, and am happy to organize CCTN18 as one of parallel symposia in NT18 at Beijing in 2018. The CCTN18 organizing team welcomes participants to discuss recent advance of theoretical works on low-dimensional materials as well as computational techniques some of which can be applied on informatics based on artificial intelligence.</li>
 					<li>
-						Local Chief Organizer: Wanlin Guo<br />
+						Chief Organizer: Yoshiyuki Miyamoto<br>
+						Local Chief Organizer: Wanlin Guo<br>
 						Local Organizer: Zhuhua Zhang
 					</li>
 				</ul>
@@ -348,11 +504,12 @@
 				12th International Workshop on Metrology, Standardization and Industrial Quality of Nanotubes (MSIN17)
 			</h2>
 				<ul style="font-size: 20px;">
-					<li>Chief Organizer: Ado Jorio</li>
+					
 					<li>This satellite symposium is dedicated to the metrology, standardization and industrial quality of low dimensional materials. Adoption of a new material in industry requires consistency and quality that can only be assured by international standards of measurement. The research community also benefits from standard measurement practices and quality in nanostructures as it facilitates inter-laboratory comparisons of research results. Development of protocols for the definition of sample parameters like composition, purity, stability, homogeneity, dispersability and structural metrics are keys for both research and applications. The MSIN18 workshop strives to bring together the international stakeholders in measurement science and standardization to build consensus on best measurement practices to assure consistency and quality in the field of carbon nanotubes, graphene, and other low dimensional structures.</li>
 					<li>
-						Local Chief Organizer: Kaili Jiang<br />
-						Local Organizer: Kaili Jiang
+						Chief Organizer: Ado Jorio<br>
+						Local Chief Organizer: Kaili Jiang<br>
+						Local Organizer: Kaihui Liu
 					</li>
 				</ul>
 				<h2>
@@ -360,51 +517,63 @@
 
 			</h2>
 				<ul style="font-size: 20px;">
-				   	<li>Chief Organizer: Annick Loiseau</li>
-					<li>This Satellite Symposium will focus on fundamental and applied research in the area of graphene and 2D materials, as well as novel heterostructures using stacked, layered geometries of these materials. Invited talks will be presented by leading researchers in the field to give perspectives on current topics in the science and applications of graphene and other 2D materials. Besides invited talks, the workshop will also consist of contributed talks and posters spanning these areas.<br />
+				   	
+					<li>This Satellite Symposium will focus on fundamental and applied research in the area of graphene and 2D materials, as well as novel heterostructures using stacked, layered geometries of these materials. Invited talks will be presented by leading researchers in the field to give perspectives on current topics in the science and applications of graphene and other 2D materials. Besides invited talks, the workshop will also consist of contributed talks and posters spanning these areas.<br>
 					This Satellite Symposium will focus on fundamental and applied research in the area of graphene and 2D materials, as well as novel heterostructures using stacked, layered geometries of these materials. Invited talks will be presented by leading researchers in the field to give perspectives on current topics in the science and applications of graphene and other 2D materials. Besides invited talks, the workshop will also consist of contributed talks and posters spanning these areas.
 					</li>
-						<li>
-						Local Chief Organizer: Yongsheng Chen<br />
-						Local Organizer: Yongsheng Chen
+						<li>Chief Organizer: Annick Loiseau<br>
+						Local Chief Organizer: Yongsheng Chen<br>
+						Local Organizer: Hailin Peng
 					</li>
 				</ul>
 				<h2>
 					6th Carbon Nanotube Thin Film Electronics and Applications Symposium (CNTFA18)
 				</h2>
 				<ul style="font-size: 20px;">
-					<li>Chief Organizer: Esko Kauppinen</li>
+					
 					<li>All kinds of thin-film device applications of carbon nanotube, graphene, novel 2D materials, and related materials are included in the scope of this satellite symposium, e.g, (a) active electronic and optical devices such as FETs, TFTs, and optical switches, (b) sensors such as biosensors, gas sensors, and MEMS/NEMS sensors, (c) passive elements such as transparent conductive films and interconnections, and so on. Fundamental physics and technologies related to those applications such as growth, purification/separation, film formation, printing technology, device fabrication and characterization are also covered.
 					</li>
-					<li>
-						Co-Chief Organizer: Yutaka Ohno<br />
-						Local Chief Organizer: Lianmao Peng<br />
-						Local Organizer: Lianmao Peng
+					<li>Chief Organizer: Esko Kauppinen<br>
+						Co-Chief Organizer: Yutaka Ohno<br>
+						Local Chief Organizer: Lianmao Peng<br>
+						Local Organizer: Youfan Hu
 					</li>
 				</ul>
 				<h2>
 					9th Symposium on Carbon Nanomaterials Biology, Medicine & Toxicology (CNBMT18)
 				</h2>
 				<ul style="font-size: 20px;">
-					<li>Chief Organizer: Masako Yudasaka</li>
-					<li>This satellite symposium will focus on the specific applications of nanocarbons (fullerene, nanotube, graphene, nanohorn, etc.) in the biomedical fields.<br />
-					Highlights: <br />
-					- Basic biology (Molecular-level interaction of nanocarbons with biological materials, cells, and tissues, etc.) <br />
-					- Therapy (Drug/gene delivery, Photo-hyperthermia, Pharmacokinetics, etc.) <br />
-					- Diagnostics (Imaging, Sensor, Critical assay, etc.) <br />
-					- Nanotoxicology (Mechanisms, Toxicokinetics, etc) <br />
-					- Medical devices (Actuator, Robot, Pacemaker, etc.) <br />
-					- Tissue engineering <br />
+					
+					<li>This satellite symposium will focus on the specific applications of nanocarbons (fullerene, nanotube, graphene, nanohorn, etc.) in the biomedical fields.<br>
+					Highlights: <br>
+					- Basic biology (Molecular-level interaction of nanocarbons with biological materials, cells, and tissues, etc.) <br>
+					- Therapy (Drug/gene delivery, Photo-hyperthermia, Pharmacokinetics, etc.) <br>
+					- Diagnostics (Imaging, Sensor, Critical assay, etc.) <br>
+					- Nanotoxicology (Mechanisms, Toxicokinetics, etc) <br>
+					- Medical devices (Actuator, Robot, Pacemaker, etc.) <br>
+					- Tissue engineering <br>
 					- Environmental risk
 
 					</li>
-					<li>Chief Organizer: Masako Yudasaka<br />
-						Local Chief Organizer: Yuliang Zhao<br />
-						Organizer:Alberto Bianco<br />
-						Organizer:Emmanuel Flahaut<br />
-						Organizer:Kostas Kostarelos<br />
+					<li>Chief Organizer: Masako Yudasaka<br>
+						Local Chief Organizer: Yuliang Zhao<br>
+						Organizer:Alberto Bianco<br>
+						Organizer:Emmanuel Flahaut<br>
+						Organizer:Kostas Kostarelos<br>
 						Local Organizer: Chunying Chen
 					</li>
+			</ul>
+					<h2>
+					1st International Workshop on Nanocarbon Materials for Energy and Sustainability(NMES18)
+					</h2>
+					<ul style="font-size: 20px;">
+
+						<li>
+							to be announced<br>
+						</li>
+						<li>Co-Chief Organizer: Qiang Zhang<br>
+							Co-Chief Organizer: Feng Li<br>
+						</li>
 				</ul>
 		</textarea>
 		<!--loadSponsors-->
@@ -413,15 +582,15 @@
 				Invitation for Sponsors and Exhibitors
 			</h2>
 			<ul style="font-size: 20px;">
-			<strong>Dear Friends and Colleagues,</strong><br />
-			&nbsp;&nbsp;&nbsp;&nbsp;The 19th International Conference on the Science and Application of Nanotubes and Low-dimensional Materials (NT18) will take place at the Centennial Lecture Hall of Peking University, Beijing, China from July 16th to 20th, 2018. The NT conference series is one of the most influential scientific meetings in the field of nanoscience and nanotechnology. It aims to disseminate the latest advances in both the science and technology of carbon nanotubes and the other related low dimensional materials. We expect to host more than 700 participants including ~ 350 participants from countries outside China.<br />
-			&nbsp;&nbsp;&nbsp;&nbsp;In order to hold a successful conference and to promote the communication between the academic scholars and the industrial experts, it is our privilege and honor to invite you to attend and sponsor the NT18 conference. The name and logo of the sponsor companies will be placed on the conference webpage and handbook. We also welcome the sponsorship of the reception, VIP dinner, and banquet. <br />
-			&nbsp;&nbsp;&nbsp;&nbsp;The conference will hold an exhibition on nanotechnology, instrumentation, and products on nanocarbon and related nanomaterials. Fully equipped Booths are available.<br />
-			<br />
-			<strong>Contact us:</strong><br />
-			Ms Liping Yan<br />
-			Phone: +86-10-62756773<br />
-			Email:  nt18@pku.edu.cn<br />
+			<strong>Dear Friends and Colleagues,</strong><br>
+			&nbsp;&nbsp;&nbsp;&nbsp;The 19th International Conference on the Science and Application of Nanotubes and Low-dimensional Materials (NT18) will take place at the Centennial Lecture Hall of Peking University, Beijing, China from July 16th to 20th, 2018. The NT conference series is one of the most influential scientific meetings in the field of nanoscience and nanotechnology. It aims to disseminate the latest advances in both the science and technology of carbon nanotubes and the other related low dimensional materials. We expect to host more than 700 participants including ~ 350 participants from countries outside China.<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;In order to hold a successful conference and to promote the communication between the academic scholars and the industrial experts, it is our privilege and honor to invite you to attend and sponsor the NT18 conference. The name and logo of the sponsor companies will be placed on the conference webpage and handbook. We also welcome the sponsorship of the reception, VIP dinner, and banquet. <br>
+			&nbsp;&nbsp;&nbsp;&nbsp;The conference will hold an exhibition on nanotechnology, instrumentation, and products on nanocarbon and related nanomaterials. Fully equipped Booths are available.<br>
+			<br>
+			<strong>Contact us:</strong><br>
+			Ms Liping Yan<br>
+			Phone: +86-10-62756773<br>
+			Email:  nt18@pku.edu.cn<br>
 			</ul>
 		</textarea>
 		<!--loadDate-->
@@ -481,11 +650,11 @@
 	  <tr>
 		<td width="217"><p align="center">Accompanying person</p></td>
 		<td width="336" colspan="2"><p align="center">RMB 1000<br>
-		  (including welcome reception,<br /> excursion and banquet)</p></td>
+		  (including welcome reception,<br> excursion and banquet)</p></td>
 	  </tr>
 	</table>
-					<br />
-					<li><strong>Satellite only</strong></li>
+					<br>
+					<li><strong>Parallel symposium  only</strong></li>
 					<table border="0" cellspacing="0" cellpadding="0">
 	  <tr>
 		<td width="330"><p align="center">&nbsp;</p></td>
@@ -843,9 +1012,9 @@
 				Contact us:
 			</h2>
 			<ul style="font-size:20px;">
-			Ms Liping Yan <br />
-			Phone: +86-10-62756773<br />
-			Email:  nt18@pku.edu.cn<br />
+			Ms Liping Yan <br>
+			Phone: +86-10-62756773<br>
+			Email:  nt18@pku.edu.cn<br>
 			</ul>
 		</textarea>
 		<!--load404-->
