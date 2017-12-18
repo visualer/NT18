@@ -168,8 +168,9 @@ nav ul:after {
 
 nav ul li {
     /*padding: 10px 50px;*/
-    font-size: 20px;
+    font-size: 18px;
     float: left;
+
 }
 
 .Home a {
@@ -317,7 +318,8 @@ aside #asideNav li a, .copyrightBlock {
     padding: 15px;
     color: #444;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
+	color:#555555;
 }
 
 aside #asideNav li:not(.noReaction):hover > a {
