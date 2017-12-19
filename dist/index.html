@@ -26,9 +26,9 @@
 <header id="header">
     <section id="topWrap clearfix">
         <section id="mainWrap clearfix">
-            <span class="logoNT" style="float: left; display: inline; padding-top: 17px; padding-bottom: 17px; padding-left: 50px;">
+            <span class="logoNT" style="float: left; display: inline; padding-top: 17px;  padding-bottom: 17px; padding-left: 150px;">
                 <a href="index.html" title="NT18 Conference">
-                <img src="img/NT18logo_1.png" height="106"/>
+                <img src="img/NT18logo_1.png" height="100"/>
                 </a>
             </span>
         </section>
@@ -152,10 +152,9 @@
         <li>
             <a href="#?load=ParallelSymposia" onclick="loadData(1, 'loadParallelSymposia');">Parallel Symposia</a>
         </li>
-        <li>
-            <a href="#?load=Sponsors" onclick="loadData(1, 'loadSponsors');">Sponsors and Exhibitions</a>
-        </li>
+        
      -->
+        
         <li>
             <a href="#?load=Date" onclick="loadData(1, 'loadDate');">Important Dates</a>
         </li>
@@ -165,6 +164,9 @@
         </li>
         <li>
             <a href="http://nt18.medmeeting.org/Useren/contribute/6728">Abstract Submission</a>
+        </li>
+        <li>
+            <a href="#?load=Sponsors" onclick="loadData(1, 'loadSponsors');">Sponsors and Exhibitions</a>
         </li>
  <!--       <li>
             <a href="#?load=TravelInfo" onclick="loadData(1, 'loadTravelInfo');">Travel Information</a>
@@ -186,6 +188,9 @@
             <a href="#?load=Contact" onclick="loadData(1, 'loadContact');">Contact Us</a>
         </li>
         <li>
+            <a href="#?load=Newyear" onclick="loadData(1, 'loadNewyear');">Happy New Year</a>
+        </li>
+        <li>
             <a href="flyer.pdf" target="_blank" style="color:#FF7355">[<u>Conference Flyer</u>]</a>
         </li>
 		</li>
@@ -203,6 +208,7 @@
 
 
 <textarea id="loadIndex" style="display: none;">
+    
     <h1 style="text-align: center;">
         Welcome to NT18 Conference!
     </h1>
@@ -305,6 +311,11 @@
         </table>
 
 		</textarea>
+
+<!-- loadNewyear-->
+<textarea id="loadNewyear" style="display: none;">
+	<img src="img/NT18HNY.jpg" width="750px" />
+</textarea>
 
 <!--loadVenue-->
 
@@ -626,62 +637,61 @@
 				Registration Fees
 			</h2>
 				<ul style="font-size: 20px;">
-					<li><strong>Main conference + Satellite</strong></li>
-					<table border="0" cellspacing="0" cellpadding="0">
+	<table class="reg" cellpadding="0">
 	  <tr>
-		<td width="330"><p align="center">&nbsp;</p></td>
-		<td width="152"><p align="center">General</p></td>
-		<td width="184"><p align="center">Student</p></td>
+		<td class="reg1"><li><strong>Main conference and Satellite</strong></li></td>
+		<td class="reg2">General</td>
+		<td class="reg3">Student</td>
 	  </tr>
 	  <tr>
-		<td width="330"><p align="center">Early bird (before May 31, 2018)</p></td>
-		<td width="152"><p align="center">RMB 3600</p></td>
-		<td width="184"><p align="center">RMB 2400</p></td>
+		<td class="reg1">Early bird (before May 31, 2018)</td>
+		<td class="reg2">RMB 3600</td>
+		<td class="reg3">RMB 2400</td>
 	  </tr>
 	  <tr>
-		<td width="330"><p align="center">Regular (before June 30, 2018)</p></td>
-		<td width="152"><p align="center">RMB 4500</p></td>
-		<td width="184"><p align="center">RMB 2900</p></td>
+		<td class="reg1">Regular (before June 30, 2018)</td>
+		<td class="reg2">RMB 4500</td>
+		<td class="reg3">RMB 2900</td>
 	  </tr>
 	  <tr>
-		<td width="217"><p align="center">On-site (July 15-20, 2018)</p></td>
-		<td width="152"><p align="center">RMB 5500</p></td>
-		<td width="184"><p align="center">RMB 3500</p></td>
+		<td class="reg1">On-site (July 15-20, 2018)</td>
+		<td class="reg2">RMB 5500</td>
+		<td class="reg3">RMB 3500</td>
 	  </tr>
 	  <tr>
-		<td width="217"><p align="center">Banquet (before May 31, 2018)</p></td>
-		<td width="152"><p align="center">RMB 100</p></td>
-		<td width="184"><p align="center">RMB 80</p></td>
+		<td class="reg1">Banquet (before May 31, 2018)</td>
+		<td class="reg2">RMB 100</td>
+		<td class="reg3">RMB 80</td>
 	  </tr>
 	  <tr>
-		<td width="217"><p align="center">Banquet (on-site)</p></td>
-		<td width="152"><p align="center">RMB 200</p></td>
-		<td width="184"><p align="center">RMB 150</p></td>
+		<td class="reg1">Banquet (on-site)</td>
+		<td class="reg2">RMB 200</td>
+		<td class="reg3">RMB 150</td>
 	  </tr>
 	  <tr>
-		<td width="217"><p align="center">Accompanying person</p></td>
-		<td width="336" colspan="2"><p align="center">RMB 1000<br />
-		  (including welcome reception,<br /> excursion and banquet)</p></td>
+		<td class="reg1">Accompanying person</td>
+		<td class="reg4" colspan="2">RMB 1000
+		  (including welcome1000<br /> reception, excursion and banquet)</td>
 	  </tr>
 	</table>
 					<br />
-					<li><strong>Parallel symposium  only</strong></li>
-					<table border="0" cellspacing="0" cellpadding="0">
+					
+					<table class="reg" border="0" cellspacing="0" cellpadding="0">
 	  <tr>
-		<td width="330"><p align="center">&nbsp;</p></td>
-		<td width="222"><p align="center">General or Student</p></td>
+		<td class="reg1"><li><strong>Parallel symposium  only</strong></li></td>
+		<td class="reg4">General or Student</td>
 	  </tr>
 	  <tr>
-		<td width="330"><p align="center">Early bird (before May 31, 2018)</p></td>
-		<td width="222"><p align="center">RMB 1000</p></td>
+		<td class="reg1">Early bird (before May 31, 2018)</td>
+		<td class="reg4">RMB 1000</td>
 	  </tr>
 	  <tr>
-		<td width="330"><p align="center">Regular (before June 30, 2018)</p></td>
-		<td width="222"><p align="center">RMB 1200</p></td>
+		<td class="reg1">Regular (before June 30, 2018)</td>
+		<td class="reg4">RMB 1200</td>
 	  </tr>
 	  <tr>
-		<td width="330"><p align="center">On-site (July 15-20, 2018)</p></td>
-		<td width="222"><p align="center">RMB 1500</p></td>
+		<td class="reg1">On-site (July 15-20, 2018)</td>
+		<td class="reg4">RMB 1500</td>
 	  </tr>
 	</table>
 				</ul>
@@ -950,44 +960,165 @@
 				Co-Chairs:
 			</h4>
 			<table>
-				<tr><td>Annick Loiseau</td><td>Shigeo Maruyama</td></tr>
+				<tr>
+					<td>Annick Loiseau</td>
+					<td>ONERA-CNRS, France</td>
+				</tr>
+				<tr>
+					<td>Shigeo Maruyama</td>
+					<td>Univ. Tokyo, Japan</td>
+				</tr>
 			</table>
 			<h4>
 				Members:
 			</h4>
-			<table>
-				<tr><td>Tobias Hertel</td><td>Ado Jorio</td></tr>
-				<tr><td>Esko Kauppinen</td><td>Jing Kong</td></tr>
-				<tr><td>Yan Li</td><td>Masako Yudasaka</td></tr>
-				<tr><td>Ming Zheng</td></tr>
+			
+				<table>
+			  
+				<tr>
+				  <td>Tobias Hertel </td>
+				  <td>Univ. Würzburg, Germany</td>
+				</tr>
+				<tr>
+				  <td>Ado Jorio</td>
+				  <td>UFMG, Brazil</td>
+				</tr>
+				<tr>
+				  <td>Esko Kauppinen</td>
+				  <td>Aalto Univ., Finland</td>
+				</tr>
+				<tr>
+				  <td>Jing Kong</td>
+				  <td>MIT, USA</td>
+				</tr>
+				<tr>
+				  <td>Yan Li </td>
+				  <td>PKU, China</td>
+				</tr>
+				<tr>
+				  <td>Masako Yudasaka</td>
+				  <td>AIST, Japan</td>
+				</tr>
+				<tr>
+				  <td>Ming Zheng</td>
+				  <td>NIST, USA</td>
+				</tr>
+			  
 			</table>
+
+			
 			<h4>
 				Honorary Members:
 			</h4>
 			<table>
-				<tr><td><span style="border: 1px solid #000000">Mildred Dresselhaus</span></td><td>David Tomanek</td></tr>
+				<tr><td><span style="border: 1px solid #000000">Mildred Dresselhaus</span></td>
+				<td>MIT, USA</td>
+				</tr>
+				<tr>
+					<td>David Tomanek</td>
+					<td>MSU, USA</td>
+				</tr>
 			</table>
 			<h3>
 				Advisory Board
 			</h3>
 			<table>
-				<tr><td>Michael S. Arnold</td><td>Paola Ayala</td></tr>
-				<tr><td>Seunghyun Baik	</td><td>Hui-Ming Cheng</td></tr>
-				<tr><td>Stephen K. Doorn</td><td>James Elliott</td></tr>
-				<tr><td>Kaili Jiang</td><td>Ado Jorio</td></tr>
-				<tr><td>Ryo Kitaura</td><td>Ralph Krupke</td></tr>
-				<tr><td>Daniel Heller</td><td>Tobias Hertel</td></tr>
-				<tr><td>Jean-Sebastien Lauret</td><td>Kazunari Matsuda</td></tr>
-				<tr><td>Yutaka Ohno</td><td>Alain Penicaud</td></tr>
-				<tr><td>Vasily Perebeinos</td><td>Stephanie Reich</td></tr>
-				<tr><td>Zhipei Sun</td><td>Yoke-Khin Yap</td></tr>
-				<tr><td>Aldo J.G. Zarbin</td><td>Jin Zhang</td></tr>
+				<tr>
+				  <td>Michael S. Arnold</td>
+				  <td>UW-Madison, USA</td>
+				</tr>
+				<tr>
+				  <td>Paola Ayala</td>
+				  <td>Univ. Vienna, Austria</td>
+				</tr>
+				<tr>
+				  <td>Seunghyun Baik</td>
+				  <td>SKKU, Korea</td>
+				</tr>
+				<tr>
+				  <td>Huiming Cheng</td>
+				  <td>IMR, China</td>
+				</tr>
+				<tr>
+				  <td>Stephen K. Doorn</td>
+				  <td>LANL, USA</td>
+				</tr>
+				<tr>
+				  <td>James Elliott</td>
+				  <td>Univ. Cambridge, UK</td>
+				</tr>
+				<tr>
+				  <td>Kaili Jiang </td>
+				  <td>THU, China</td>
+				</tr>
+				<tr>
+				  <td>Ado Jorio</td>
+				  <td>UFMG, Brazil</td>
+				</tr>
+				<tr>
+				  <td>Ryo Kitaura</td>
+				  <td>Nagoya Univ., Japan</td>
+				</tr>
+				<tr>
+				  <td>Ralph Krupke</td>
+				  <td>KIT, Germany</td>
+				</tr>
+				<tr>
+				  <td>Daniel Heller</td>
+				  <td>MSKCC, USA</td>
+				</tr>
+				<tr>
+				  <td>Tobias Hertel</td>
+				  <td>Univ. Würzburg, Germany</td>
+				</tr>
+				<tr>
+				  <td>Jean-Sebastien Lauret</td>
+				  <td>ENS Paris Saclay, France</td>
+				</tr>
+				<tr>
+				  <td>Kazunari Matsuda</td>
+				  <td>Kyoto Univ., Japan</td>
+				</tr>
+				<tr>
+				  <td>Yutaka Ohno</td>
+				  <td>Nagoya Univ., Japan</td>
+				</tr>
+				<tr>
+				  <td>Alain Penicaud </td>
+				  <td>Univ. Bordeaux-CNRS, France</td>
+				</tr>
+				<tr>
+				  <td>Vasily Perebeinos</td>
+				  <td>Skoltech, Russia</td>
+				</tr>
+				<tr>
+				  <td>Stephanie Reich</td>
+				  <td>Freie Univ. Berlin, Germany</td>
+				</tr>
+				<tr>
+				  <td>Zhipei Sun</td>
+				  <td>Aalto Univ., Finland</td>
+				</tr>
+				<tr>
+				  <td>Yoke-Khin Yap</td>
+				  <td>MTU, USA</td>
+				</tr>
+				<tr>
+				  <td>Aldo J.G. Zarbin</td>
+				  <td>UFPR, Brazil</td>
+				</tr>
+				<tr>
+				  <td>Jin Zhang</td>
+				  <td>PKU, China</td>
+				</tr>
 			</table>
+
 			<h3>
 				Organizers
 			</h3>
 			<table>
-				<tr><td>Yan Li</td><td>Jin Zhang</td></tr>
+				<tr><td>Yan Li</td></tr>
+				<tr><td>Jin Zhang</td></tr>
 				<tr><td>Huiming Cheng</td></tr>
 			</table>
 			<h3>

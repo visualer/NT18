@@ -1,4 +1,4 @@
-/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+s/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
 
 /*
  * What follows is the result of much research on cross-browser styling.
@@ -136,7 +136,6 @@ nav {
     text-align: center;
     vertical-align: middle;
     font-family: Arial, serif;
-    font-weight: 300;
     position: absolute;
     top: 140px;
     height: 48px;
@@ -173,6 +172,39 @@ nav ul li {
     float: left;
 	background-color: #900000;
 
+}
+
+.reg
+{
+	border:0px;
+	font-size: 20px;
+}
+.reg tr
+{
+	height: 60;
+}
+
+.reg1
+{
+	width:auto;
+	text-align:left;
+}
+
+.reg2
+{
+	width:auto;
+	text-align: center;
+}
+.reg3
+{
+	width:auto;
+	text-align: center;
+}
+
+.reg4
+{
+	width:auto;
+	text-align: center;
 }
 
 .Home a {
@@ -416,7 +448,7 @@ article .note {
 }
 
 #loadCommittee table tr td {
-    width: 200px;
+    width: 250px;
     font-size: 18px;
 }
 
@@ -606,3 +638,4 @@ article .note {
         page-break-after: avoid;
     }
 }
+
