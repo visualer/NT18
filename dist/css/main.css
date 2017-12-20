@@ -639,3 +639,11 @@ article .note {
     }
 }
 
+
+topics {
+	font-size: 20;
+}
+topics ul li
+{
+	font-size: 24;
+}
