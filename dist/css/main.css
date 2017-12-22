@@ -178,6 +178,7 @@ nav ul li {
 {
 	border:0px;
 	font-size: 20px;
+	line-height: 60px;
 }
 .reg tr
 {
@@ -290,7 +291,7 @@ nav ul ul li:hover > a {
 }
 
 aside {
-    font-family: Arial, serif;
+    font-family: Arial, serif,;
     position: absolute;
     font-weight: 300;
     margin-top: 60px;
