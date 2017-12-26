@@ -178,7 +178,9 @@ nav ul li {
 {
 	border:0px;
 	font-size: 20px;
-	line-height: 60px;
+	height:40px;
+	line-height: 45px;
+	padding: 5px;
 }
 .reg tr
 {
@@ -647,4 +649,8 @@ topics {
 topics ul li
 {
 	font-size: 24;
+}
+
+.reg tr td {
+	padding: 5px;
 }
