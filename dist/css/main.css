@@ -179,7 +179,7 @@ nav ul li {
 	border:0px;
 	font-size: 20px;
 	height:40px;
-	line-height: 45px;
+	line-height: 40px;
 	padding: 5px;
 }
 .reg tr
@@ -400,6 +400,8 @@ article h1 {
 
 article h2 {
     font-size: 30px;
+	color: #111111;
+	line-height: 45px;
 }
 
 article h3 {
@@ -413,7 +415,10 @@ article h4 {
 }
 
 article p {
-    font-size: 18px;
+    line-height: 40px;
+	font-size: 20px;
+	font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+	color: #252525;
 }
 
 article .note {
@@ -653,4 +658,25 @@ topics ul li
 
 .reg tr td {
 	padding: 5px;
+}
+
+textarea ul li {
+	line-height: 40px;
+}
+
+.StarText{
+	line-height: 40px;
+	font-size: 20px;
+	font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+	color: #252525;
+}
+
+.StarTextSmall {
+	font-size: 18px;
+	font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+	color: #252525;
+}
+
+textarea #loadCharter p {
+	line-height:normal;
 }
