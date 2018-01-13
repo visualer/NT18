@@ -671,12 +671,52 @@ textarea ul li {
 	color: #252525;
 }
 
+.StarText td{
+	line-height: 40px;
+	font-size: 20px;
+	font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+	color: #252525;
+	
+}
+
+.StarTextNav td
+{
+	line-height: 40px;
+	font-size: 20px;
+	font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+	color: #252525;
+}
+
+.StarTextNav td a
+{
+	padding: 5px 15px 5px 8px;
+	line-height:normal;
+	text-decoration: none;
+	color:#8f0000;
+	background-color: #f0cdcd;
+	
+}
+
+.StarTextNav td a:hover
+{
+	transition: background-color ease 0.3s;
+    -moz-transition: background-color ease 0.3s;
+    -webkit-transition: background-color ease 0.3s;
+    -o-transition: background-color ease 0.3s;
+    color: #fff;
+	background-color: #900000;
+}
+
+
+
+
 .StarTextSmall {
 	font-size: 18px;
 	font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
 	color: #252525;
 }
 
-textarea #loadCharter p {
-	line-height:normal;
+.StarlinkTitle {
+	text-decoration: none;
+	color:black;
 }
