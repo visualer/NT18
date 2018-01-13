@@ -716,6 +716,17 @@ textarea ul li {
 	color: #252525;
 }
 
+.StarTextSmall tr td {
+	font-size: 16px;
+	font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+	color: #686868;
+	width: 200px;
+}
+
+.StarTextSmall tr{
+	height: 110px;
+}
+
 .StarlinkTitle {
 	text-decoration: none;
 	color:black;
