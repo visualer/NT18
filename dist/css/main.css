@@ -679,6 +679,10 @@ textarea ul li {
 	
 }
 
+.StarText a:link, .StarText a:visited{
+	color: #2F2F9E;
+}
+
 .StarTextNav td
 {
 	line-height: 40px;
@@ -696,6 +700,8 @@ textarea ul li {
 	background-color: #f0cdcd;
 	
 }
+
+
 
 .StarTextNav td a:hover
 {
