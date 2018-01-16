@@ -454,7 +454,7 @@ article p {
 }
 
 article .note {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /*templates*/
@@ -769,3 +769,17 @@ textarea ul li {
 	text-decoration: none;
 	color:black;
 }
+
+.keynoteimg tr td img {
+	width: 130px;
+}
+
+.keynoteimg tr td{
+	font-size: 16px;
+	text-align: center;
+	line-height: 0px;
+}
+.keynoteimg tr td a:link, .keynoteimg tr td a:visited{
+	color: #2F2F9E;
+}
+
