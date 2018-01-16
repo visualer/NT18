@@ -383,6 +383,38 @@ aside #asideNav li:not(.noReaction):hover > a {
     color: #fff;
 }
 
+
+aside #asideNav2 {
+    list-style: none;
+    padding: 0;
+    width: 260px;
+}
+
+aside #asideNav2 li {
+    text-decoration: none;
+    background: #ffffff;
+	line-height: 30px;
+}
+
+aside #asideNav2 li:not(.noReaction):hover {
+    transition: background-color ease 0.3s;
+    -moz-transition: background-color ease 0.3s;
+    -webkit-transition: background-color ease 0.3s;
+    -o-transition: background-color ease 0.3s;
+    background: #900000;
+}
+
+aside #asideNav2 li a{
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+	color:#585858;
+}
+
+aside #asideNav2 li:not(.noReaction):hover > a {
+    color: #fff;
+}
+
 article {
     position: absolute;
     top: 188px;
@@ -400,7 +432,7 @@ article h1 {
 
 article h2 {
     font-size: 30px;
-	color: #111111;
+	color: #222222;
 	line-height: 45px;
 }
 
