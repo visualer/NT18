@@ -139,7 +139,7 @@ nav {
     margin: auto;
     text-align: center;
     vertical-align: middle;
-    font-family: sans-serif;
+    
     position: absolute;
     top: 140px;
     height: 30px;
@@ -300,7 +300,6 @@ nav ul ul li:hover > a {
 }
 
 aside {
-    font-family: sans-serif,;
     position: absolute;
     font-weight: 300;
     margin-top: 60px;
@@ -428,7 +427,7 @@ article {
     z-index: 0;
     margin-top: 42px;
     margin-left: 100px;
-    font-family: sans-serif;
+    
     width: 700px;
     padding-bottom: 100px;
 }
@@ -456,7 +455,7 @@ article h4 {
 article p {
     line-height: 40px;
 	font-size: 20px;
-	font-family: sans-serif;
+	
 	color: #252525;
 }
 
@@ -707,14 +706,14 @@ textarea ul li {
 .StarText{
 	line-height: 40px;
 	font-size: 20px;
-	font-family: sans-serif;
+	
 	color: #252525;
 }
 
 .StarText td{
 	line-height: 40px;
 	font-size: 20px;
-	font-family: sans-serif;
+	
 	color: #252525;
 	
 }
@@ -727,7 +726,7 @@ textarea ul li {
 {
 	line-height: 40px;
 	font-size: 20px;
-	font-family: sans-serif;
+	
 	color: #252525;
 }
 
@@ -758,13 +757,13 @@ textarea ul li {
 
 .StarTextSmall {
 	font-size: 18px;
-	font-family: sans-serif;
+	
 	color: #252525;
 }
 
 .StarTextSmall tr td {
 	font-size: 16px;
-	font-family: sans-serif;
+	
 	color: #686868;
 	width: 200px;
 }
@@ -805,18 +804,14 @@ textarea ul li {
 
 .StarTextMix {
 	line-height: 20px;
-	font-size: 16px;
-	font-family: 'Lato',sans-serif;
-	
+	font-size: 16px;	
 	color: #252525;
 }
 
 
 .StarTextMix table tbody td tr{
 	line-height: 20px;
-	font-size: 16px;
-	font-family: 'Lato',sans-serif;
-	
+	font-size: 16px;	
 	color: #252525;
 }
 
