@@ -24,19 +24,6 @@ html {
  * Customize the background color to match your design.
  */
 
-footer
- {
-
-
-	bottom: 0;
-
-	width: 100%;
-
-	height: 60px;/*脚部的高度*/
-
-	clear: both;
-
-}
 
 ::-moz-selection {
     background: #b3d4fc;
@@ -831,5 +818,25 @@ textarea ul li {
 
 .StarTitle {
 	color:#FFA1A3;
+}
+
+.container{
+    /*保证footer是相对于container位置绝对定位*/
+    position:relative;  
+    width:100%;
+    min-height:100%; 
+    /*设置padding-bottom值大于等于footer的height值，以保证main的内容能够全部显示出来而不被footer遮盖；*/  
+    padding-bottom: 100px;  
+    box-sizing: border-box;
+}
+
+
+.footer{
+    width: 100%;
+    height:100px;   /* footer的高度一定要是固定值*/ 
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    background: #333;
 }
 
