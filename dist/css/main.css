@@ -1,4 +1,4 @@
-s/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
 
 /*
  * What follows is the result of much research on cross-browser styling.
@@ -141,7 +141,6 @@ nav {
     margin: auto;
     text-align: center;
     vertical-align: middle;
-    
     position: absolute;
     top: 140px;
     height: 30px;
@@ -152,9 +151,12 @@ nav ul ul {
 	
 }
 
+
+/* by Stardust, To deal wiht the bug on iphone.*/
 nav ul li:hover > ul {
     display: block;
 }
+
 
 nav ul {
     padding: 0;
