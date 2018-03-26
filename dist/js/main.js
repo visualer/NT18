@@ -5,7 +5,7 @@
 
 
 function isPC() {
-"use strict";
+	"use strict";
 	var userAgentInfo = navigator.userAgent;
 	var Agents = ["Android", "iPhone", "SymbianOS", "Windows Phone", "iPod"]; //exclude iPad
 	for (var v = 0; v < Agents.length; v++) {
@@ -17,7 +17,7 @@ function isPC() {
 }
 
 function scroll_main(width, number) {
-"use strict";
+	"use strict";
 	var call;
 	var s = $(".slider ul");
 	var x = s,
@@ -71,19 +71,19 @@ function scroll_main(width, number) {
 } // scroll_main
 
 function loadData(delay, id) {
-"use strict";
+	"use strict";
 	if (arguments.length === 1) { //should analyze the params
 		var href = window.location.href;
 		var param = href.split("#?");
 		id = "load";
 		if (param.length > 1) {
 			var p1 = param[1].split("=");
-			if (p1[0] !== param[1] && p1[0] === "load"){
+			if (p1[0] !== param[1] && p1[0] === "load") {
 				id += p1[1];
 			}
 		}
 		//got valid id or just remains "load"
-		if (id === "load"){
+		if (id === "load") {
 			id += "Index";
 		}
 	}
@@ -103,7 +103,7 @@ function loadData(delay, id) {
 		$article.html($id.val());
 		var articleId = $article.attr("id");
 		$id.attr("id", "prevDiv");
-		if ($prevDiv.length !== 0){ //prevDiv exists		
+		if ($prevDiv.length !== 0) { //prevDiv exists		
 			$prevDiv.attr("id", articleId);
 		}
 		$article.attr("id", id);
@@ -125,10 +125,9 @@ function loadData(delay, id) {
 			scrollTop: 0
 		}, 300);
 		$article.fadeIn(300);
-	} else 
-		{
-			afterLoad();
-		}
+	} else {
+		afterLoad();
+	}
 }
 
 function panorama(divId, width, posID, povList, errDivId) {
@@ -211,14 +210,15 @@ var globalWidth = (window.screen.width > 1280 ? window.screen.width : 1280) - sc
 // min-width = 1280 - scrollbarWidth
 // here we got the globalWidth
 
-if (isPC()){
+if (isPC()) {
 	$("<link>")
-	.attr({
-		"rel": "stylesheet",
-		"type": "text/css",
-		"href": "css/scrollbar.css"
-	})
-	.appendTo("head");}
+		.attr({
+			"rel": "stylesheet",
+			"type": "text/css",
+			"href": "css/scrollbar.css"
+		})
+		.appendTo("head");
+}
 
 
 var x = document.getElementsByClassName("subNav"),
@@ -229,36 +229,68 @@ for (i = 0; i < x.length; i++) {
 }
 
 // set subNav width
-$("nav").css({
-	"margin-left": (window.innerWidth - sum) / 2,
-	"width": sum
-});
+if (isPC()===false) {
+	$("nav").css({
+		"margin-left": window.innerWidth / 18,
+		"width": sum
+	});
+} 
+else {
 
-
-$("aside").css("margin-left", (window.innerWidth - 1000) / 2);
-$("#StarHead").css("padding-left", window.innerWidth/10);
-
+	$("nav").css({
+		"margin-left": (window.innerWidth - sum) / 2,
+		"width": sum
+	});
+}
 
 var n = $("#newsBlock");
 n.find("ul li a").css("width",
 	(n.find("ul").height() > 98) ?
 	((navigator.userAgent.indexOf("Chrome") > -1) ? 240 : 260 - 10 - scrollbarWidth) : 250);
 
-$("body").css("width", window.innerWidth-scrollbarWidth);
+
 var k = $("article");
-k.css("left", (window.innerWidth - 500) / 2);
+
+
+if (isPC()===false) {
+	$("aside").css("margin-left", window.innerWidth / 20);
+	k.css("left", window.innerWidth / 20 + 250);
+	$("body").css("width", window.innerWidth);
+} else {
+	$("aside").css("margin-left", (window.innerWidth - 1000) / 2);
+	k.css("left", (window.innerWidth - 500) / 2);
+	$("body").css("width", window.innerWidth - scrollbarWidth);
+}
+
+$("#StarHead").css("padding-left", window.innerWidth / 10);
 
 //change elements paddings when the window's size changed. by Stardust.
-$(window).resize(function(){
+$(window).resize(function () {
 	"use strict";
+	if (isPC()===false) {
 	$("nav").css({
-	"margin-left": (window.innerWidth - sum) / 2,
-	"width": sum
+		"margin-left": (screen.width - sum) / 2,
+		"width": sum
 	});
-	$("body").css("width", window.innerWidth-scrollbarWidth);
-	$("aside").css("margin-left", (window.innerWidth - 1000) / 2);
-	$("#StarHead").css("padding-left", window.innerWidth/10);
-	k.css("left", (window.innerWidth - 500) / 2);
+} 
+else {
+
+	$("nav").css({
+		"margin-left": (window.innerWidth - sum) / 2,
+		"width": sum
+	});
+}
+	if (isPC()===false) {
+		$("aside").css("margin-left", window.innerWidth / 20);
+		k.css("left", window.innerWidth / 20 + 250);
+		$("body").css("width", window.innerWidth);
+	} else {
+		$("aside").css("margin-left", (window.innerWidth - 1000) / 2);
+		k.css("left", (window.innerWidth - 500) / 2);
+		$("body").css("width", window.innerWidth - scrollbarWidth);
+	}
+	$("#StarHead").css("padding-left", window.innerWidth / 10);
+
 });
 
 
@@ -289,21 +321,15 @@ $(function () {
 });
 
 //to deal with th iphone bug that the nav can't work well when hover. by Stardust
-$(".subNav").mouseenter(function(){
+$(".subNav").mouseenter(function () {
 	"use strict";
-	$(this.children).css("display","block");
+	$(this.children).css("display", "block");
 });
-$(".subNav").mouseleave(function(){
+$(".subNav").mouseleave(function () {
 	"use strict";
-	$(".subNav ul").css("display","none");
+	$(".subNav ul").css("display", "none");
 });
 
 
 
 // well done!
-
-
-
-
-
-

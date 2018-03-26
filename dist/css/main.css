@@ -11,9 +11,9 @@
    ========================================================================== */
 
 html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+	color: #222;
+	font-size: 1em;
+	line-height: 1.4;
 }
 
 /*
@@ -26,109 +26,94 @@ html {
 
 
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+ background: #b3d4fc;
+ text-shadow: none;
 }
-
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+	background: #b3d4fc;
+	text-shadow: none;
 }
-
 /*
  * A better looking default horizontal rule
  */
 
 hr {
-    display: block;
-    height: 2px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+	display: block;
+	height: 2px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
 }
-
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
 
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-    vertical-align: middle;
+audio, canvas, iframe, img, svg, video {
+	vertical-align: middle;
 }
-
 /*
  * Remove default fieldset styles.
  */
 
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+	border: 0;
+	margin: 0;
+	padding: 0;
 }
-
 /*
  * Allow only vertical resizing of textareas.
  */
 
 textarea {
-    resize: vertical;
+	resize: vertical;
 }
-
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
 
 .browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+	margin: 0.2em 0;
+	background: #ccc;
+	color: #000;
+	padding: 0.2em 0;
 }
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
 html, body {
-    margin: 0;
-    height: 100%;
-    width: 100%;
-    border: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	border: 0;
 	padding: 0;
-    font-family: sans-serif;
+	font-family: sans-serif;
 	font-weight: lighter;
 }
 strong {
-	font-weight:bold;
+	font-weight: bold;
 }
-
 /*body {
     visibility: hidden;
 }*/
 
 #maskLayer {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    z-index: 10;
-    top: 0;
-    background: #ffffff;
-    opacity: 1;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+	top: 0;
+	background: #ffffff;
+	opacity: 1;
 }
-
 header {
-    background: #8f000b url(pkucloud1h100.png) no-repeat top right;
-    height: 140px;
-    margin: 0;
+	background: #8f000b url(pkucloud1h100.png) no-repeat top right;
+	height: 140px;
+	margin: 0;
 }
-
 /*.clearfix:after {
     display: block;
     content: '';
@@ -138,36 +123,29 @@ header {
 }*/
 
 nav {
-    margin: auto;
-    text-align: center;
-    vertical-align: middle;
-    position: absolute;
-    top: 140px;
-    height: 30px;
+	margin: auto;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+	top: 140px;
+	height: 30px;
 }
-
 nav ul ul {
-    display:none;
-	
+	display: none;
 }
-
-
 /* by Stardust, To deal wiht the bug on iphone.*/
 nav ul li:hover > ul {
-    display: block;
+	display: block;
 }
-
-
 nav ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    position: relative;
-    display: inline-table;
-    width: 100%;
-    text-align: center;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	width: 100%;
+	text-align: center;
 }
-
 /*nav ul:after {
     content: "";
     clear: both;
@@ -175,351 +153,292 @@ nav ul {
 }*/
 
 nav ul li {
-    /*padding: 10px 50px;*/
-    font-size: 16px;
-    float:left;
+	/*padding: 10px 50px;*/
+	font-size: 16px;
+	float: left;
 	background-color: #900000;
 }
-
-.reg
-{
-	border:0px;
+.reg {
+	border: 0px;
 	font-size: 20px;
-	height:40px;
+	height: 40px;
 	line-height: 40px;
 	padding: 5px;
 }
-.reg tr
-{
+.reg tr {
 	height: 60;
 }
-
-.reg1
-{
-	width:auto;
-	text-align:left;
+.reg1 {
+	width: auto;
+	text-align: left;
 }
-
-.reg2
-{
-	width:auto;
+.reg2 {
+	width: auto;
 	text-align: center;
 }
-.reg3
-{
-	width:auto;
+.reg3 {
+	width: auto;
 	text-align: center;
 }
-
-.reg4
-{
-	width:auto;
+.reg4 {
+	width: auto;
 	text-align: center;
 }
-
 .Home a {
-    font-size: 20px;
-    padding: 0;
+	font-size: 20px;
+	padding: 0;
 }
-
 .subNav {
 	width: 80px;
 	height: 48px;
-    line-height: 48px;
+	line-height: 48px;
 	background-color: #F0CDCD;
-	color:#900000;
+	color: #900000;
 }
-
-nav{
+nav {
 	align-content: center;
 }
-
 nav ul li:hover {
-    cursor: pointer;
-    transition: background-color ease 0.3s;
-    -moz-transition: background-color ease 0.3s;
-    -webkit-transition: background-color ease 0.3s;
-    -o-transition: background-color ease 0.3s;
-    background:#900000;
-    color: #fff;
-}
-
-nav ul li:hover > a {
-    transition: color ease 0.3s;
-    -moz-transition: color ease 0.3s;
-    -webkit-transition: color ease 0.3s;
-    -o-transition: color ease 0.3s;
-    color: #fff;
-}
-nav ul li a:hover > strong {
-    transition: color ease 0.3s;
-    -moz-transition: color ease 0.3s;
-    -webkit-transition: color ease 0.3s;
-    -o-transition: color ease 0.3s;
-    color: #fff;
-}
-
-nav ul li a {
-    display: block;
-    padding: 0 15px;
-    text-decoration: none;
-	color:#fff;
-}
-nav ul li strong {
-	color:#900000;
-}
-
-nav ul ul {
-    width: auto;
-    z-index: 9;
-    background: #ffffff;
-    padding: 0;
-    position: absolute;
-    top: 100%;
-}
-
-nav ul ul li {
-    padding: 0;
-    float: none;
-    position: relative;
-    border-left: 1px #900000 solid;
-    border-right: 1px #900000 solid;
-}
-
-nav ul ul li:hover > a {
-    transition: color ease 0.3s;
-    -moz-transition: color ease 0.3s;
-    -webkit-transition: color ease 0.3s;
-    -o-transition: color ease 0.3s;
-    background-color: #C90000;
+	cursor: pointer;
+	transition: background-color ease 0.3s;
+	-moz-transition: background-color ease 0.3s;
+	-webkit-transition: background-color ease 0.3s;
+	-o-transition: background-color ease 0.3s;
+	background: #900000;
 	color: #fff;
 }
-
+nav ul li:hover > a {
+	transition: color ease 0.3s;
+	-moz-transition: color ease 0.3s;
+	-webkit-transition: color ease 0.3s;
+	-o-transition: color ease 0.3s;
+	color: #fff;
+}
+nav ul li a:hover > strong {
+	transition: color ease 0.3s;
+	-moz-transition: color ease 0.3s;
+	-webkit-transition: color ease 0.3s;
+	-o-transition: color ease 0.3s;
+	color: #fff;
+}
+nav ul li a {
+	display: block;
+	padding: 0 15px;
+	text-decoration: none;
+	color: #fff;
+}
+nav ul li strong {
+	color: #900000;
+}
+nav ul ul {
+	width: auto;
+	z-index: 9;
+	background: #ffffff;
+	padding: 0;
+	position: absolute;
+	top: 100%;
+}
+nav ul ul li {
+	padding: 0;
+	float: none;
+	position: relative;
+	border-left: 1px #900000 solid;
+	border-right: 1px #900000 solid;
+}
+nav ul ul li:hover > a {
+	transition: color ease 0.3s;
+	-moz-transition: color ease 0.3s;
+	-webkit-transition: color ease 0.3s;
+	-o-transition: color ease 0.3s;
+	background-color: #C90000;
+	color: #fff;
+}
 .FirstMenuElem {
-    border-top: 1px #900000 solid;
+	border-top: 1px #900000 solid;
 }
-
 .LastMenuElem {
-    border-bottom: 1px #900000 solid;
+	border-bottom: 1px #900000 solid;
 }
-
 aside {
-    position: absolute;
-    font-weight: 300;
-    margin-top: 60px;
-    float: left;
-    width: 260px;
+	position: absolute;
+	font-weight: 300;
+	margin-top: 60px;
+	float: left;
+	width: 260px;
 }
-
 aside #newsHeader {
-    width: 260px;
-    height: 120px;
-    position: relative;
+	width: 260px;
+	height: 120px;
+	position: relative;
 }
-
 aside #newsHeader div {
-    margin-left: 10px;
-    display: inline;
-    font-size: 32px;
-    color: #333333;
-    position: absolute;
-    bottom: 20px;
+	margin-left: 10px;
+	display: inline;
+	font-size: 32px;
+	color: #333333;
+	position: absolute;
+	bottom: 20px;
 }
-
 aside #newsBlock {
-    width: 260px;
-    height: 130px;
-    border-radius: 10px;
-    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-    overflow-y: auto;
+	width: 260px;
+	height: 130px;
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	overflow-y: auto;
 }
-
 aside #newsBlock ul {
-    list-style: none;
-    text-decoration: none;
-    padding: 0;
-    margin-top: 16px;
-    margin-bottom: 16px;
+	list-style: none;
+	text-decoration: none;
+	padding: 0;
+	margin-top: 16px;
+	margin-bottom: 16px;
 }
-
 aside #newsBlock ul li {
-    border-top: 1px dotted #cccccc;
+	border-top: 1px dotted #cccccc;
 }
-
 aside #newsBlock ul li a {
-    color: #444444;
-    width: 240px;
-    display: block;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-decoration: none;
-    font-size: 16px;
+	color: #444444;
+	width: 240px;
+	display: block;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-decoration: none;
+	font-size: 16px;
 }
-
 aside #newsBlockLast {
-    border-bottom: 1px dotted #cccccc;
+	border-bottom: 1px dotted #cccccc;
 }
-
 aside #asideNav {
-    list-style: none;
-    padding: 0;
-    width: 260px;
+	list-style: none;
+	padding: 0;
+	width: 260px;
 }
-
 aside #asideNav li {
-    border-top: 1px solid #c0c0c0;
-    text-decoration: none;
-    background: #ffffff;
+	border-top: 1px solid #c0c0c0;
+	text-decoration: none;
+	background: #ffffff;
 }
-
 aside #asideNav li:not(.noReaction):hover {
-    transition: background-color ease 0.3s;
-    -moz-transition: background-color ease 0.3s;
-    -webkit-transition: background-color ease 0.3s;
-    -o-transition: background-color ease 0.3s;
-    background: #900000;
+	transition: background-color ease 0.3s;
+	-moz-transition: background-color ease 0.3s;
+	-webkit-transition: background-color ease 0.3s;
+	-o-transition: background-color ease 0.3s;
+	background: #900000;
 }
-
 aside #asideNav li a, .copyrightBlock {
-    display: block;
-    padding: 15px;
-    text-decoration: none;
-    font-size: 18px;
-	color:#555555;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 18px;
+	color: #555555;
 }
-
 aside #asideNav li:not(.noReaction):hover > a {
-    color: #fff;
+	color: #fff;
 }
-
-
 aside #asideNav2 {
-    list-style: none;
-    padding: 0;
-    width: 260px;
+	list-style: none;
+	padding: 0;
+	width: 260px;
 }
-
 aside #asideNav2 li {
-    text-decoration: none;
-    background: #ffffff;
+	text-decoration: none;
+	background: #ffffff;
 	line-height: 30px;
 }
-
 aside #asideNav2 li:not(.noReaction):hover {
-    transition: background-color ease 0.3s;
-    -moz-transition: background-color ease 0.3s;
-    -webkit-transition: background-color ease 0.3s;
-    -o-transition: background-color ease 0.3s;
-    background: #900000;
+	transition: background-color ease 0.3s;
+	-moz-transition: background-color ease 0.3s;
+	-webkit-transition: background-color ease 0.3s;
+	-o-transition: background-color ease 0.3s;
+	background: #900000;
 }
-
-aside #asideNav2 li a{
-    display: block;
-    text-decoration: none;
-    font-size: 18px;
-	color:#585858;
+aside #asideNav2 li a {
+	display: block;
+	text-decoration: none;
+	font-size: 18px;
+	color: #585858;
 }
-
 aside #asideNav2 li:not(.noReaction):hover > a {
-    color: #fff;
+	color: #fff;
 }
-
 article {
-    position: absolute;
-    top: 188px;
-    z-index: 0;
-    margin-top: 42px;
-    margin-left: 100px;
-    
-    width: 700px;
-    padding-bottom: 100px;
+	position: absolute;
+	top: 188px;
+	z-index: 0;
+	margin-top: 42px;
+	margin-left: 100px;
+	width: 700px;
+	padding-bottom: 100px;
 }
-
 article h1 {
-    font-size: 40px;
+	font-size: 40px;
 }
-
 article h2 {
-    font-size: 30px;
+	font-size: 30px;
 	color: #222222;
 	line-height: 45px;
 }
-
 article h3 {
-    font-size: 24px;
+	font-size: 24px;
 }
-
 article h4 {
-    font-size: 22px;
-    font-weight: 500;
-    line-height: 1.2em;
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 1.2em;
 }
-
 article p {
-    line-height: 40px;
+	line-height: 40px;
 	font-size: 20px;
-	
 	color: #252525;
 }
-
 article .note {
-    font-size: 16px;
+	font-size: 16px;
 }
-
 /*templates*/
 
 .slider {
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-    z-index: 0;
-    box-shadow: 2px 2px 2px #777777;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	z-index: 0;
+	box-shadow: 2px 2px 2px #777777;
 }
-
 .slider ul:hover {
-    animation-play-state: paused;
-    -webkit-animation-play-state: paused;
-    -o-animation-play-state: paused;
-    -moz-animation-play-state: paused;
+	animation-play-state: paused;
+	-webkit-animation-play-state: paused;
+	-o-animation-play-state: paused;
+	-moz-animation-play-state: paused;
 }
-
 .slider ul li {
-    float: left;
+	float: left;
 }
-
 .slider ul {
-    list-style: none;
-    float: left;
-    padding: 0;
-    margin: 0;
-    position: absolute;
+	list-style: none;
+	float: left;
+	padding: 0;
+	margin: 0;
+	position: absolute;
 }
-
 #loadCommittee table tr td {
-    width: 250px;
-    font-size: 18px;
+	width: 250px;
+	font-size: 18px;
 }
-
 .keyNote {
-    border-collapse: separate;
-    border-spacing: 10px 20px;
+	border-collapse: separate;
+	border-spacing: 10px 20px;
 }
-
 .keyNote a {
-    text-decoration: none;
+	text-decoration: none;
 }
-
 .keyNote tr td {
-    width: 300px;
-    font-size: 22px;
+	width: 300px;
+	font-size: 22px;
 }
-
 .keyNote tr td img {
-    box-shadow: 2px 2px 2px #777777;
+	box-shadow: 2px 2px 2px #777777;
 }
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -529,49 +448,44 @@ article .note {
  */
 
 .hidden {
-    display: none !important;
+	display: none !important;
 }
-
 /*
  * Hide only visually, but have it available for screen readers:
  * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  */
 
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
 }
-
 /*
  * Extends the .visuallyhidden class to allow the element
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+	clip: auto;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	position: static;
+	width: auto;
 }
-
 /*
  * Hide visually and from screen readers, but maintain layout
  */
 
 .invisible {
-    visibility: hidden;
+	visibility: hidden;
 }
-
 /*
  * Clearfix: contain floats
  *
@@ -584,16 +498,13 @@ article .note {
  *    `:before` to contain the top-margins of child elements.
  */
 
-.clearfix:before,
-.clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+.clearfix:before, .clearfix:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
 }
-
 .clearfix:after {
-    clear: both;
+	clear: both;
 }
-
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
@@ -602,14 +513,11 @@ article .note {
    ========================================================================== */
 
 @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+/* Style adjustments for viewports that meet the condition */
 }
 
-@media print,
-(-webkit-min-device-pixel-ratio: 1.25),
-(min-resolution: 1.25dppx),
-(min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
+/* Style adjustments for high resolution devices */
 }
 
 /* ==========================================================================
@@ -619,212 +527,148 @@ article .note {
    ========================================================================== */
 
 @media print {
-    *,
-    *:before,
-    *:after,
-    *:first-letter,
-    *:first-line {
-        background: transparent !important;
-        color: #000 !important;
-        /* Black prints faster:
+*,  *:before,  *:after,  *:first-letter,  *:first-line {
+	background: transparent !important;
+	color: #000 !important;
+	/* Black prints faster:
                                           http://www.sanbeiji.com/archives/953 */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    /*
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+a,  a:visited {
+	text-decoration: underline;
+}
+a[href]:after {
+	content: " (" attr(href) ")";
+}
+abbr[title]:after {
+	content: " (" attr(title) ")";
+}
+/*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    /*
+a[href^="#"]:after,  a[href^="javascript:"]:after {
+	content: "";
+}
+pre,  blockquote {
+	border: 1px solid #999;
+	page-break-inside: avoid;
+}
+/*
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+thead {
+	display: table-header-group;
 }
-
-
+tr,  img {
+	page-break-inside: avoid;
+}
+img {
+	max-width: 100% !important;
+}
+p,  h2,  h3 {
+	orphans: 3;
+	widows: 3;
+}
+h2,  h3 {
+	page-break-after: avoid;
+}
+}
 topics {
 	font-size: 20;
 }
-topics ul li
-{
+topics ul li {
 	font-size: 24;
 }
-
 .reg tr td {
 	padding: 5px;
 }
-
 textarea ul li {
 	line-height: 40px;
 }
-
-.StarText{
+.StarText {
 	line-height: 40px;
 	font-size: 20px;
-	
 	color: #252525;
 }
-
-.StarText td{
+.StarText td {
 	line-height: 40px;
 	font-size: 20px;
-	
 	color: #252525;
-	
 }
-
-.StarText a:link, .StarText a:visited{
+.StarText a:link, .StarText a:visited {
 	color: #2F2F9E;
 }
-
-.StarTextNav td
-{
+.StarTextNav td {
 	line-height: 40px;
 	font-size: 20px;
-	
 	color: #252525;
 }
-
-.StarTextNav td a
-{
+.StarTextNav td a {
 	padding: 5px 15px 5px 8px;
-	line-height:normal;
+	line-height: normal;
 	text-decoration: none;
-	color:#8f0000;
+	color: #8f0000;
 	background-color: #f0cdcd;
-	
 }
-
-
-
-.StarTextNav td a:hover
-{
+.StarTextNav td a:hover {
 	transition: background-color ease 0.3s;
-    -moz-transition: background-color ease 0.3s;
-    -webkit-transition: background-color ease 0.3s;
-    -o-transition: background-color ease 0.3s;
-    color: #fff;
+	-moz-transition: background-color ease 0.3s;
+	-webkit-transition: background-color ease 0.3s;
+	-o-transition: background-color ease 0.3s;
+	color: #fff;
 	background-color: #900000;
 }
-
-
-
-
 .StarTextSmall {
 	font-size: 18px;
-	
 	color: #252525;
 }
-
 .StarTextSmall tr td {
 	font-size: 16px;
-	
 	color: #686868;
 	width: 200px;
 }
-
-.StarTextSmall tr{
+.StarTextSmall tr {
 	height: 110px;
 }
-
 .StarlinkTitle {
 	text-decoration: none;
-	color:black;
+	color: black;
 }
-
 .keynoteimg tr td img {
 	width: 130px;
 }
-
-.keynoteimg tr td{
+.keynoteimg tr td {
 	font-size: 16px;
 	text-align: center;
 	line-height: 0px;
 }
-.keynoteimg tr td a:link, .keynoteimg tr td a:visited{
+.keynoteimg tr td a:link, .keynoteimg tr td a:visited {
 	color: #2F2F9E;
 }
-
-
-.StarName a{
+.StarName a {
 	color: #FFA1A3;
 	text-decoration: none;
 }
-
-.StarName a:hover{
+.StarName a:hover {
 	color: #3692FF;
 	text-decoration: underline;
 }
-
-
 .StarTextMix {
 	line-height: 20px;
-	font-size: 16px;	
+	font-size: 16px;
 	color: #252525;
 }
-
-
-.StarTextMix table tbody td tr{
+.StarTextMix table tbody td tr {
 	line-height: 20px;
-	font-size: 16px;	
+	font-size: 16px;
 	color: #252525;
 }
-
 .StarTitle {
-	color:#FFA1A3;
+	color: #FFA1A3;
 }
-
-
-
 .StarTextMid {
 	font-size: 18px;
 	line-height: 30px;
