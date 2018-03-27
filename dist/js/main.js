@@ -231,10 +231,10 @@ for (i = 0; i < x.length; i++) {
 // set subNav width
 if (isPC()===false) {
 	$("nav").css({
-		"margin-left": window.innerWidth / 18,
+		"margin-left": (window.screen.width * window.devicePixelRatio - sum) / 2,
 		"width": sum
 	});
-} 
+}
 else {
 
 	$("nav").css({
@@ -254,9 +254,10 @@ var k = $("article");
 
 if (isPC()===false) {
 	$("aside").css("margin-left", window.innerWidth / 20);
-	k.css("left", window.innerWidth / 20 + 250);
-	$("body").css("width", window.innerWidth);
-} else {
+	k.css("left", window.innerWidth / 20 + 200);
+	$("body").css("width", window.screen.width * window.devicePixelRatio+20);
+} 
+else {
 	$("aside").css("margin-left", (window.innerWidth - 1000) / 2);
 	k.css("left", (window.innerWidth - 500) / 2);
 	$("body").css("width", window.innerWidth - scrollbarWidth);
@@ -267,23 +268,22 @@ $("#StarHead").css("padding-left", window.innerWidth / 10);
 //change elements paddings when the window's size changed. by Stardust.
 $(window).resize(function () {
 	"use strict";
-	if (isPC()===false) {
-	$("nav").css({
-		"margin-left": (screen.width - sum) / 2,
-		"width": sum
-	});
-} 
-else {
+	if (isPC() === false) {
+		$("nav").css({
+			"margin-left": (window.screen.width * window.devicePixelRatio - sum) / 2,
+			"width": sum
+		});
+	} else {
 
-	$("nav").css({
-		"margin-left": (window.innerWidth - sum) / 2,
-		"width": sum
-	});
-}
-	if (isPC()===false) {
+		$("nav").css({
+			"margin-left": (window.innerWidth - sum) / 2,
+			"width": sum
+		});
+	}
+	if (isPC() === false) {
 		$("aside").css("margin-left", window.innerWidth / 20);
 		k.css("left", window.innerWidth / 20 + 250);
-		$("body").css("width", window.innerWidth);
+		$("body").css("width", window.screen.width * window.devicePixelRatio * 1.2);
 	} else {
 		$("aside").css("margin-left", (window.innerWidth - 1000) / 2);
 		k.css("left", (window.innerWidth - 500) / 2);
@@ -292,8 +292,6 @@ else {
 	$("#StarHead").css("padding-left", window.innerWidth / 10);
 
 });
-
-
 
 
 // set width of DOM elements
