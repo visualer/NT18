@@ -672,3 +672,8 @@ textarea ul li {
 	font-size: 18px;
 	line-height: 30px;
 }
+
+.StarMail {
+	text-decoration: underline;
+	color: blue;
+}

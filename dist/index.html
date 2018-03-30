@@ -42,7 +42,8 @@
 								<ul>
 										<li class="FirstMenuElem"> <a href="#?load=Date" onclick="loadData(1, 'loadDate');">Important Dates</a> </li>
 										<li> <a href="#?load=Reg" onclick="loadData(1, 'loadReg');">Registration and Payment</a> </li>
-										<li class="LastMenuElem"> <a href="#?load=Abs" onclick="loadData(1, 'loadAbs');">Abstract Submission</a> </li>
+										<li> <a href="#?load=Abs" onclick="loadData(1, 'loadAbs');">Abstract Submission</a> </li>
+										<li class="LastMenuElem"> <a href="#?load=Visa" onclick="loadData(1, 'loadVisa');">Visa Information</a> </li>
 								</ul>
 						</li>
 						<li class="subNav" >Peking University
@@ -117,6 +118,7 @@
 				<li> <a href="#?load=ParallelSymposia" onclick="loadData(1, 'loadParallelSymposia');">Parallel Symposia</a> </li>
 				<li> <a href="#?load=Reg" onclick="loadData(1, 'loadReg');">Registration and Payment</a> </li>
 				<li> <a href="#?load=Abs" onclick="loadData(1, 'loadAbs');">Abstract Submission</a> </li>
+				<li> <a href="#?load=Visa" onclick="loadData(1, 'loadVisa');">Visa Information</a> </li>
 				<li> <a href="#?load=Sponsors" onclick="loadData(1, 'loadSponsors');">Sponsors and Exhibitions</a> </li>
 				<!--       <li>
 				<a href="#?load=TravelInfo" onclick="loadData(1, 'loadTravelInfo');">Travel Information</a>
@@ -138,7 +140,7 @@
 				</li>
 		</ul>
 		<ul id="asideNav2">
-				<li> <a href="http://meeting.yizhifubj.com.cn/web/index.action?meetingId=410" target="_blank"><img src="img/icons/link.png" height="25">Pay the Registration Fee</a> </li>
+				<li> <a href="http://meeting.yizhifubj.com.cn/web/index.action?meetingId=410" target="_blank"><img src="img/icons/link.png" height="25">Registration Website</a> </li>
 				<li> <a href="http://nt18.medmeeting.org/Useren/contribute/6728" target="_blank"><img src="img/icons/link.png" height="25">Submit Abstract</a> </li>
 				<li> <a href="flyer.pdf" target="_blank"><img src="img/icons/pdfs.png" height="25">Conference Flyer</a> </li>
 				<li> <a href="Third Announcement.pdf" target="_blank"><img src="img/icons/pdfs.png" height="25">Third Announcement</a> </li>
@@ -995,7 +997,7 @@
 				<strong>Contact us:</strong><br />
 				Ms Liping Yan<br />
 				Phone: +86-10-62755357<br />
-				Email: nt18@pku.edu.cn<br />
+				Email: <span class="StarMail">nt18@pku.edu.cn</span><br />
 				</ul>
 
 			</textarea>
@@ -1012,8 +1014,8 @@
 						<li>May 31st 2018: Early Bird Payment Deadline</li>
 						<li>Jun. 30th 2018: Regular Registration Closes</li>
 						<li>Jul. 14th 2018: Register onsite.</li>
-						<li>Jul. 15th–20th 2018: Conference</li>
 						<li>Jul. 15th 2018: Parallel Symposia</li>
+						<li>Jul. 16th–20th 2018: Conference</li>						
 						<li>Jul. 18th 2018: Excursion & Banquet</li>
 					</ul>
 			</textarea>
@@ -1025,75 +1027,151 @@
 			<table  border="1" align="center" bordercolor="#FFFFFF">
 			  <tbody>
 				<tr class="StarTextNav">
-				  <td><a href="http://meeting.yizhifubj.com.cn/web/index.action?meetingId=410"><img src="img/icons/link.png" height="20px;">Pay the Registration Fee</a></td>
+				  <td><a href="http://meeting.yizhifubj.com.cn/web/index.action?meetingId=410"><img src="img/icons/link.png" height="20px;">Registration Website</a></td>
 				</tr>
 			  </tbody>
 			</table>
-				<h2>
-					Registration Fees
-				</h2>
-					<ul class="StarText" style="font-size: 20px;">
-						<table class="reg" cellpadding="0">
+			<p class="StarText">
+						<strong>Online Registration Steps</strong>
+					</p>
+					<ul class="StarTextMix" style="list-style: none;">
+					
+						<li>Step 1: Please visit the website and create an account.</li>
+						<li>Step 2: Log into the registration system, fill in your relevant information.</li>
+						<li>Step 3: Finish the payment.</li>
+					</ul>
+				<p class="StarText">
+					<strong>Registration Fees</strong>
+				</p>
+					<ul class="StarTextMix">
+						<table cellpadding="0">
 						  <tr>
-							<td class="reg1"><strong>Main conference and parallel</strong></td>
-							<td class="reg2">General</td>
-							<td class="reg3">Student</td>
+							<td width="250px"><strong>Main conference and parallel</strong></td>
+							<td width="100px">General</td>
+							<td>Student</td>
 						  </tr>
 						  <tr>
-							<td class="reg1">Early bird (before May 31, 2018)</td>
-							<td class="reg2">RMB 3600</td>
-							<td class="reg3">RMB 2400</td>
+							<td>Early bird (before May 31, 2018)</td>
+							<td>RMB 3600</td>
+							<td>RMB 2400</td>
 						  </tr>
 						  <tr>
-							<td class="reg1">Regular (before June 30, 2018)</td>
-							<td class="reg2">RMB 4200</td>
-							<td class="reg3">RMB 2800</td>
+							<td>Regular (before June 30, 2018)</td>
+							<td>RMB 4200</td>
+							<td>RMB 2800</td>
 						  </tr>
 						  <tr>
-							<td class="reg1">On-site (July 14-20, 2018)</td>
-							<td class="reg2">RMB 4800</td>
-							<td class="reg3">RMB 3200</td>
+							<td>On-site (July 14-20, 2018)</td>
+							<td>RMB 4800</td>
+							<td>RMB 3200</td>
 						  </tr>
 						  <tr>
-							<td class="reg1">Banquet (before May 31, 2018)</td>
-							<td class="reg2">RMB 100</td>
-							<td class="reg3">RMB 50</td>
+							<td>Banquet (before May 31, 2018)</td>
+							<td>RMB 100</td>
+							<td>RMB 50</td>
 						  </tr>
 						  <tr>
-							<td class="reg1">Banquet (on-site)</td>
-							<td class="reg2">RMB 200</td>
-							<td class="reg3">RMB 100</td>
+							<td>Banquet (on-site)</td>
+							<td>RMB 200</td>
+							<td>RMB 100</td>
 						  </tr>
 						  <tr>
-							<td class="reg1">Accompanying person</td>
-							<td class="reg4" colspan="2" style="line-height: 25px;">
+							<td>Accompanying person</td>
+							<td colspan="2">
 								RMB 1000 (including reception, <br />excursion and banquet)</td>
 						  </tr>
 						</table>
 						<br />
 
-						<table class="reg" border="0" cellspacing="0" cellpadding="0">
-		  <tr>
-			<td class="reg1"><strong>Parallel symposium  only</strong></td>
-			<td class="reg4">General or Student</td>
-		  </tr>
-		  <tr>
-			<td class="reg1">Early bird (before May 31, 2018)</td>
-			<td class="reg4">RMB 1000</td>
-		  </tr>
-		  <tr>
-			<td class="reg1">Regular (before June 30, 2018)</td>
-			<td class="reg4">RMB 1200</td>
-		  </tr>
-		  <tr>
-			<td class="reg1">On-site (July 15-20, 2018)</td>
-			<td class="reg4">RMB 1500</td>
-		  </tr>
-		</table>
-
+						<table border="0">
+					  <tr>
+						<td width="250px"><strong>Parallel symposium  only</strong></td>
+						<td>General or Student</td>
+					  </tr>
+					  <tr>
+						<td>Early bird (before May 31, 2018)</td>
+						<td>RMB 1000</td>
+					  </tr>
+					  <tr>
+						<td>Regular (before June 30, 2018)</td>
+						<td>RMB 1200</td>
+					  </tr>
+					  <tr>
+						<td>On-site (July 15-20, 2018)</td>
+						<td>RMB 1500</td>
+					  </tr>
+					</table>
 					</ul>
-	<!--	<h2><strong><a href="http://162.105.205.105/sys/Conf/18nt/Reg">Click here to Regist.</a></strong><div style="color: red;font-size: 20px;">(Testing, please don't pay.)</div></h2> -->
-			</textarea>
+					<hr>
+				<p class="StarText">
+						<strong>Payment Instructions</strong>
+					</p>
+					<p class="StarTextMix">
+						Preferential conditions for registration fee are only valid when your online-registration and payment is done before corresponding deadlines. We kindly suggest you make the payment in advance via online payment or bank transfer.
+					</p>
+					<p class="StarTextMix">
+						<strong>1. Online Payment</strong><br>
+						Please log into the registration system and complete your payment according to the instructions of the system. 
+					</p>	
+					<p class="StarTextMix">
+						<strong>2. Bank Transfer</strong><br>
+						If online payment is not so convenient, you may choose to pay your registration fee by bank transfer. Please see the detailed information as follows:<br>
+					<ul>
+					<table>
+						<tbody>
+							<tr>
+								<td width="200px;" nowrap>Name of the Bank</td>
+								<td>Bank of Beijing</td>
+							</tr>
+							<tr>
+								<td>Beneficiary</td>
+								<td>Peking University</td>
+							</tr>
+							<tr>
+								<td>Account No.</td>
+								<td>Bank of Beijing Building, No.17C, Financial Street, Xicheng District, Beijing, China</td>
+							</tr>
+							<tr>
+								<td>Swift Code</td>
+								<td>BJCNCNBJ</td>
+							</tr>
+							<tr>
+								<td>Chips ID</td>
+								<td>390617</td>
+							</tr>
+							<tr>
+								<td>Reference</td>
+								<td>In order to avoid confusion, please specify:[Participant's Name] + NT18 in the place of "message"</td>
+							</tr>
+						</tbody>
+					</table>
+					</ul>
+					<strong>Note:</strong>
+						<ul style="display:inline;list-style: none;">
+						<li>1. Bank transfer should be in CNY. All bank charges will be borne by the participants.</li>
+						<li>2. In order to avoid any delay in money transfer, please do send a copy of your remittance invoice or receipt by email (to <span class="StarMail">oec238a@pku.edu.cn</span>) before early-bird deadlines, otherwise you should pay according to the onsite payment standard. The payment date is subject to information indicated on your remittance receipt.</li>
+						<li>3. If you fail to pay the total amount of registration fee as required, the rest of payment will be collected at onsite registration.</li></ul>
+					</p>
+					<hr>
+					<p class="StarText">
+						<strong>Cancellation & Transfer Policy</strong>
+					</p>
+					<p class="StarTextMix">
+						The local organizing committee must be notified of a cancellation of the registration. Only cancellations in writing (to <span class="StarMail">oec238a@pku.edu.cn</span>) are accepted. Refunds will be made after the conference. Cancellation fees apply to paid registration fees.  
+					</p>
+					<p class="StarTextMix">
+						The following cancellation policy applies: <br>
+						 <strong>Cancellations before May 14, 2018</strong><br>
+						- full refund of amounts paid minus a handling fee of 200 CNY on the paid value<br>
+						 <strong>Cancellations before June 14, 2018</strong> <br>
+						- full refund of amounts paid minus a handling fee of 25% on the paid value<br>
+						<strong>Cancellations on or after July 14, 2018 </strong><br>
+						- full refund of amounts paid minus a handling fee of 50% on the paid value<br>
+						<strong>Cancellation due to visa problems</strong><br>
+						- full refund of amounts paid minus a handling fee of 200 CNY before July 1, 2018. Document needs to be shown that the registrant has submitted a visa application before June 1 and that this application has been refused (evidence required).<br>
+					</p>
+					
+				</textarea>
 
 <!--loadAbs-->
 <textarea id="loadAbs" style="display: none;">
@@ -1700,14 +1778,67 @@
 				<ul class="StarText" style="font-size:20px;">
 				Ms Liping Yan <br />
 				Phone: +86-10-62756773<br />
-				Email:  nt18@pku.edu.cn<br />
+				Email:  <span class="StarMail">nt18@pku.edu.cn</span><br />
 				</ul>
+			</textarea>
+			<textarea id="loadVisa" style="display: none;">
+				<h2>
+					Visa Information
+				</h2>
+				<p class="StarTextMix">
+					Chinese visa is a permit issued to a foreigner by the Chinese visa authorities for entry into, exit from or transit through the Chinese territory. The Chinese visa authorities may issue a diplomatic, courtesy, service or ordinary visa to a foreigner according to his/her identity, purpose of visit to China and passport type.
+				</p>
+				<p class="StarTextMix">
+					<strong>Visa F (business visa):</strong> For visitors who are travelling to China on a study or lecture tour or for a scientific conference for a period of no more than six months. To apply for a Visa F, a letter of invitation from the host organization is required.<br>
+					<strong>Visa L (tourist visa):</strong> Issued to aliens who come to China for sightseeing, visiting relatives or other private purposes. For a tourist applicant, in principle he/she shall evidence his/her financial capability of covering the travelling expenses in China, and when necessary, provide the air, train or ship tickets to the heading country/region after leaving China. For the applicants who come to China to visit relatives, some are required to provide invitation letters from their relatives in China.
+				</p>
+				<p class="StarTextMix">
+					To make your trip to China an easy and pleasant one, you are kindly advised to consult the local Chinese Embassies or Consulates-General first for travel information. They will readily help you go through the necessary procedures.
+				</p>
+				<hr>
+				<p class="StarText">
+					<strong>Necessary materials to apply for Chinese visa</strong>
+				</p>
+				<p class="StarTextMix" style="list-style: none;display: inline">
+					(1) A passport which is valid for at least six months following the date of submission, with an entire blank page available for the visa;<br>
+					(2) One Visa Application Form of the Peoples Republic of China, which is filled clearly with true, authentic and complete information and signed by the applicant;<br>
+					(3) One recent, 2 inch full-faced and bareheaded passport photo (the daily life photo, photo copy or digital photo printed on the ordinary paper shall not be accepted);<br>
+					(4) Other related application materials according to different purposes for your trip to China;<br>
+					(5) Other materials related to the visa application, deemed as necessary by the visa officer;
+						For more information, please contact the local Chinese Embassy in your country.<br>
+				
+				</p>
+				<hr>
+				<p class="StarText">
+					<strong>Invitation letter</strong>
+				</p>
+				<p class="StarTextMix">
+					If you need the “Invitation Letter of Duly authorized Unit” for visa application, please fill in all the required information in the registration system. If you have accompanying persons, please also fill in their information in the registration system. Any questions please contact at <span class="StarMail">oec238m@pku.edu.cn.</span>
+				</p>
+			</textarea>
+			<textarea id="loadAccommodation" style="display: none;">
+				<h2>Accommodation</h2>
+				<p class="StarText">
+					<strong>Beijing Friendship Hotel</strong>
+				</p>
+				<p class="StarTextMix">
+					Providing 4-star luxury in Zhongguancun technology hub of Haidian District, the Beijing Friendship Hotel is located at excellent place with shuttle bus station to the airport at north gate and metro station (3 stops to Peking University and 6 stops to the Summer Place) at south gate.</p>
+				<p class="StarTextMix">
+					All well-decorated rooms are fitted with light wood furnishings, a minibar and a flat-screen TV with cable channels. The private bathrooms include free toiletries, shower facilities and slippers.
+					Guests can work out at the gym, arrange sightseeing trips at the tour desk in Building 1. Convenient guest services such as laundry and currency exchange (in Building 1) are also provided. </p>
+				<p class="StarTextMix">
+					For Chinese meal, guests can try the Friendship Palace or Yashi (famous for its Cantonese food and Peking Duck, in Building No.1). </p>
+				<p class="StarTextMix">
+					Please go to <a href="http://www.bjfriendshiphotel.com/en/index.html">http://www.bjfriendshiphotel.com/en/index.html</a> to book if you have interests.
+				</p>
+				<img src="img/Hotel/Youyi.jpg">
 			</textarea>
 <!--load404-->
 <textarea id="load404" style="display:none;">
 				<h2 style="text-align: center; line-height: 120px;">
 					The content is not yet available at present :(
 				</h2>
+				
 	</textarea>
 
 <!--end of templates--> 
