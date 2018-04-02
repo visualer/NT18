@@ -227,6 +227,7 @@ for (i = 0; i < x.length; i++) {
 	x[i].style.width = (x[i].offsetWidth + 100).toString() + "px";
 	sum += parseInt(x[i].style.width);
 }
+sum +=2;
 
 // set subNav width
 if (isPC()===false) {
