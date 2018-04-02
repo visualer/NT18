@@ -261,7 +261,7 @@ if (isPC()===false) {
 else {
 	$("aside").css("margin-left", (window.innerWidth - 1000) / 2);
 	k.css("left", (window.innerWidth - 500) / 2);
-	$("body").css("width", window.innerWidth - scrollbarWidth);
+	$("body").css("width", window.innerWidth - scrollbarWidth-2);
 }
 
 $("#StarHead").css("padding-left", window.innerWidth / 10);
@@ -288,7 +288,7 @@ $(window).resize(function () {
 	} else {
 		$("aside").css("margin-left", (window.innerWidth - 1000) / 2);
 		k.css("left", (window.innerWidth - 500) / 2);
-		$("body").css("width", window.innerWidth - scrollbarWidth);
+		$("body").css("width", window.innerWidth - scrollbarWidth-2);
 	}
 	$("#StarHead").css("padding-left", window.innerWidth / 10);
 
