@@ -251,19 +251,24 @@ n.find("ul li a").css("width",
 
 
 var k = $("article");
-
-
 if (isPC()===false) {
 	$("aside").css("margin-left", window.innerWidth / 20);
 	k.css("left", window.innerWidth / 20 + 200);
 	$("body").css("width", window.screen.width * window.devicePixelRatio+20);
 } 
 else {
-	$("aside").css("margin-left", (window.innerWidth - 1000) / 2);
-	k.css("left", (window.innerWidth - 500) / 2);
-	$("body").css("width", window.innerWidth - scrollbarWidth-2);
+	
+	if(window.innerWidth>1150){
+			$("body").css("width", window.innerWidth - scrollbarWidth-2);
+			$("aside").css("margin-left", (window.innerWidth - 1000) / 2);
+			k.css("left", (window.innerWidth - 500) / 2);
+		}
+		else{
+			$("body").css("width", 1150);
+			$("aside").css("margin-left", 80);
+			k.css("left", 330);
+		}
 }
-
 $("#StarHead").css("padding-left", window.innerWidth / 10);
 
 //change elements paddings when the window's size changed. by Stardust.
@@ -286,9 +291,16 @@ $(window).resize(function () {
 		k.css("left", window.innerWidth / 20 + 250);
 		$("body").css("width", window.screen.width * window.devicePixelRatio * 1.2);
 	} else {
-		$("aside").css("margin-left", (window.innerWidth - 1000) / 2);
-		k.css("left", (window.innerWidth - 500) / 2);
-		$("body").css("width", window.innerWidth - scrollbarWidth-2);
+			if(window.innerWidth>1150){
+			$("body").css("width", window.innerWidth - scrollbarWidth-2);
+			$("aside").css("margin-left", (window.innerWidth - 1000) / 2);
+			k.css("left", (window.innerWidth - 500) / 2);
+		}
+		else{
+			$("body").css("width", 1150);
+			$("aside").css("margin-left", 80);
+			k.css("left", 330);
+		}
 	}
 	$("#StarHead").css("padding-left", window.innerWidth / 10);
 
