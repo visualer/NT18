@@ -230,19 +230,7 @@ for (i = 0; i < x.length; i++) {
 sum +=2;
 
 // set subNav width
-if (isPC()===false) {
-	$("nav").css({
-		"margin-left": (window.screen.width * window.devicePixelRatio - sum) / 2,
-		"width": sum
-	});
-}
-else {
 
-	$("nav").css({
-		"margin-left": (window.innerWidth - sum) / 2,
-		"width": sum
-	});
-}
 
 var n = $("#newsBlock");
 n.find("ul li a").css("width",
@@ -252,6 +240,10 @@ n.find("ul li a").css("width",
 
 var k = $("article");
 if (isPC()===false) {
+	$("nav").css({
+		"margin-left": (window.screen.width * window.devicePixelRatio - sum) / 2,
+		"width": sum
+	});
 	$("aside").css("margin-left", window.innerWidth / 20);
 	k.css("left", window.innerWidth / 20 + 200);
 	$("body").css("width", window.screen.width * window.devicePixelRatio+20);
@@ -259,14 +251,22 @@ if (isPC()===false) {
 else {
 	
 	if(window.innerWidth>1150){
+			$("nav").css({
+				"margin-left": (window.innerWidth - sum) / 2,
+				"width": sum
+			});
 			$("body").css("width", window.innerWidth - scrollbarWidth-2);
 			$("aside").css("margin-left", (window.innerWidth - 1000) / 2);
 			k.css("left", (window.innerWidth - 500) / 2);
 		}
 		else{
+			$("nav").css({
+				"margin-left": 110,
+				"width": sum
+			});
 			$("body").css("width", 1150);
-			$("aside").css("margin-left", 80);
-			k.css("left", 330);
+			$("aside").css("margin-left", 75);
+			k.css("left", 325);
 		}
 }
 $("#StarHead").css("padding-left", window.innerWidth / 10);
@@ -274,34 +274,36 @@ $("#StarHead").css("padding-left", window.innerWidth / 10);
 //change elements paddings when the window's size changed. by Stardust.
 $(window).resize(function () {
 	"use strict";
-	if (isPC() === false) {
-		$("nav").css({
-			"margin-left": (window.screen.width * window.devicePixelRatio - sum) / 2,
-			"width": sum
-		});
-	} else {
-
-		$("nav").css({
-			"margin-left": (window.innerWidth - sum) / 2,
-			"width": sum
-		});
-	}
-	if (isPC() === false) {
-		$("aside").css("margin-left", window.innerWidth / 20);
-		k.css("left", window.innerWidth / 20 + 250);
-		$("body").css("width", window.screen.width * window.devicePixelRatio * 1.2);
-	} else {
-			if(window.innerWidth>1150){
+	if (isPC()===false) {
+	$("nav").css({
+		"margin-left": (window.screen.width * window.devicePixelRatio - sum) / 2,
+		"width": sum
+	});
+	$("aside").css("margin-left", window.innerWidth / 20);
+	k.css("left", window.innerWidth / 20 + 200);
+	$("body").css("width", window.screen.width * window.devicePixelRatio+20);
+} 
+else {
+	
+	if(window.innerWidth>1150){
+			$("nav").css({
+				"margin-left": (window.innerWidth - sum) / 2,
+				"width": sum
+			});
 			$("body").css("width", window.innerWidth - scrollbarWidth-2);
 			$("aside").css("margin-left", (window.innerWidth - 1000) / 2);
 			k.css("left", (window.innerWidth - 500) / 2);
 		}
 		else{
+			$("nav").css({
+				"margin-left": 110,
+				"width": sum
+			});
 			$("body").css("width", 1150);
-			$("aside").css("margin-left", 80);
-			k.css("left", 330);
+			$("aside").css("margin-left", 75);
+			k.css("left", 325);
 		}
-	}
+}
 	$("#StarHead").css("padding-left", window.innerWidth / 10);
 
 });
