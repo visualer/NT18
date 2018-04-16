@@ -32,10 +32,12 @@
 						<li class="subNav">NT18
 								<ul>
 										<li class="FirstMenuElem"> <a href="#?load=Venue" onclick="loadData(1, 'loadVenue');">Venue</a> </li>
+										<li> <a href="#?load=Speakers" onclick="loadData(1, 'loadSpeakers');">Speakers</a> </li>
 										<li> <a href="#?load=SciProg" onclick="loadData(1, 'loadSciProg');">Scientific Program</a> </li>
+										
 										<li> <a href="#?load=SocProg" onclick="loadData(1, 'loadSocProg');">Social Program</a> </li>
 										<li> <a href="#?load=ParallelSymposia" onclick="loadData(1, 'loadParallelSymposia');">Parallel Symposia</a> </li>
-										<li class="LastMenuElem"> <a href="#?load=Sponsors" onclick="loadData(1, 'loadSponsors');">Sponsors and Exhibitions</a> </li>
+										
 								</ul>
 						</li>
 						<li class="subNav">Participation
@@ -44,6 +46,7 @@
 										<li> <a href="#?load=Reg" onclick="loadData(1, 'loadReg');">Registration and Payment</a> </li>
 										<li> <a href="#?load=Abs" onclick="loadData(1, 'loadAbs');">Abstract Submission</a> </li>
 										<li class="LastMenuElem"> <a href="#?load=Visa" onclick="loadData(1, 'loadVisa');">Visa Information</a> </li>
+										<li class="LastMenuElem"> <a href="#?load=Sponsors" onclick="loadData(1, 'loadSponsors');">Sponsors and Exhibitions</a> </li>
 								</ul>
 						</li>
 						<li class="subNav" >Peking University
@@ -68,30 +71,9 @@
 		<div id="newsHeader"> <img src="img/NT18logo.png" height="130px" style="display: inline"/>
 				<div></div>
 		</div>
-		<!--   <div id="newsBlock">
-			<ul>
-				<li>
-					<a href="#?load=Index" onclick="loadData(1, 'loadIndex');">
-						&bull; &nbsp;<b>2017/11/14</b> &nbsp;keynote Speakers updated.
-					</a>
-				</li>
-				<li>
-					<a href="#?load=ParallelSymposia" onclick="loadData(1, 'loadParallelSymposia');">
-						&bull; &nbsp;<b>2017/11/06</b> &nbsp;parallel symposia updated.</a>
-				</li>
-				<li>
-					<a href="flyer.pdf" target="_blank">
-						&bull; &nbsp;<b>2017/08/20</b> &nbsp;Conference flyer updated.</a>
-				</li>
-				<li id="newsBlockLast">
-					<a href="#?load=Committee" onclick="loadData(1, 'loadCommittee')">
-						&bull; &nbsp;<b>2017/07/22</b> &nbsp;Website refactored. Committee and other
-						information updated.
-					</a>
-				</li>
-			</ul>
-		</div>
-		-->
+		
+		
+		
 		<ul id="asideNav">
 				<li style="border: none;"> 
 						<!--        <a href="#?load=Index" onclick="loadData(1, 'loadIndex');">Home</a>
@@ -114,6 +96,7 @@
 		 -->
 						
 				<li> <a href="#?load=Date" onclick="loadData(1, 'loadDate');">Important Dates</a> </li>
+				<li> <a href="#?load=Speakers" onclick="loadData(1, 'loadSpeakers');">Speakers</a> </li>
 				<li> <a href="#?load=SciProg" onclick="loadData(1, 'loadSciProg');">Scientific Program</a> </li>
 				<li> <a href="#?load=ParallelSymposia" onclick="loadData(1, 'loadParallelSymposia');">Parallel Symposia</a> </li>
 				<li> <a href="#?load=Reg" onclick="loadData(1, 'loadReg');">Registration and Payment</a> </li>
@@ -146,6 +129,54 @@
 				<li> <a href="flyer.pdf" target="_blank"><img src="img/icons/pdfs.png" height="25">Conference Flyer</a> </li>
 				<li> <a href="NT18 Announcement.pdf" target="_blank"><img src="img/icons/pdfs.png" height="25">NT18 Announcement</a> </li>
 		</ul>
+		
+		<div id="newsBlock">
+			<span class="StarTextMix">
+			<ul>
+				<li>
+					<a href="#?load=Abs" onclick="loadData(1, 'loadAbs');">
+						&bull; &nbsp;<b>2018/04/16</b> &nbsp;extend the deadline of abstract submission to April 30th.
+					</a>
+				</li>
+				<li>
+					<a href="#?load=ParallelSymposia" onclick="loadData(1, 'loadParallelSymposia');">
+						&bull; &nbsp;<b>2018/04/16</b> &nbsp;Speakers of MSIN18 and GSS18 updated
+					</a>
+				</li>
+				<li>
+					<a href="#?load=Speakers" onclick="loadData(1, 'loadSpeakers');">
+						&bull; &nbsp;<b>2018/04/16</b> &nbsp;tutorial speakers updated.
+					</a>
+				</li>
+				<li>
+					<a href="#?load=Accommodation" onclick="loadData(1, 'loadAccommodation');">
+						&bull; &nbsp;<b>2018/04/16</b> &nbsp;accommodation updated.
+					</a>
+				</li>
+				<li>
+					<a href="#?load=Index" onclick="loadData(1, 'loadIndex');">
+						&bull; &nbsp;<b>2017/11/14</b> &nbsp;keynote Speakers updated.
+					</a>
+				</li>
+				<li>
+					<a href="#?load=ParallelSymposia" onclick="loadData(1, 'loadParallelSymposia');">
+						&bull; &nbsp;<b>2017/11/06</b> &nbsp;parallel symposia updated.</a>
+				</li>
+				<li>
+					<a href="flyer.pdf" target="_blank">
+						&bull; &nbsp;<b>2017/08/20</b> &nbsp;Conference flyer updated.</a>
+				</li>
+				<li id="newsBlockLast">
+					<a href="#?load=Committee" onclick="loadData(1, 'loadCommittee')">
+						&bull; &nbsp;<b>2017/07/22</b> &nbsp;Website refactored. Committee and other
+						information updated.
+					</a>
+				</li>
+			</ul>
+			</span>
+		</div>
+		
+		
 		<div class="copyrightBlock" style="padding-top:10px; font-size:14px;"> Website is developed by <a href="https://github.com/visualer" target="_blank">Sida Sun</a> and <a href="https://github.com/FPTStardust">Ruoming Li</a>. <a href="humans.txt" target="_blank">Humans.txt</a> </div>
 </aside>
 <article class="clearfix"> </article>
@@ -438,6 +469,50 @@
 				<li>Mass production, standardization</li>
 			</ul>
 		</ul>
+		
+		</div>
+		</textarea>
+		<textarea id="loadSpeakers" style="display: none;">
+		<h2>
+			NT18 Speakers
+		</h2>
+		
+		<div class="StarText">
+			<strong>Tutorial Talks</strong>
+		</div>
+		<div class="StarTextMix">
+		<table style="border-collapse: separate; border-spacing: 10px 15px;">
+			<tbody class="StarTextMix">
+			   <tr>
+				<td width="160px">
+					<a href="http://www.tsinghua.edu.cn/publish/newthuen/newthuen_cnt/faculties/faculties-2-3.html" target="_blank">
+						<img height="150px" src="img/KeynoteReport/Shoushan Fan.jpg"/>
+					</a>
+				</td>
+				<td>
+					<a href="http://www.tsinghua.edu.cn/publish/newthuen/newthuen_cnt/faculties/faculties-2-3.html" target="_blank">
+						<b>Shoushan Fan</b>
+					</a>
+					<br />
+					Tsinghua University, China
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="http://www.chem.pku.edu.cn/cnc/cn/zxcy/jy/index.htm" target="_blank">
+						<img height="150px" src="img/KeynoteReport/Zhongfan Liu.jpg"/>
+					</a>
+				</td>
+				<td>
+					<a href="http://www.chem.pku.edu.cn/cnc/cn/zxcy/jy/index.htm">
+						<b>Zhongfan Liu</b>
+					</a>
+					<br />
+					Peking University, China
+				</td>
+			</tr>
+			</tbody>
+		</table>
 		</div>
 		<div class="StarText">
 			<strong>Keynote Speakers</strong>
@@ -628,40 +703,45 @@
 <textarea id="loadParallelSymposia" style="display: none;">
 
 				<h2 style="line-height: 40px">
-					NT18   Parallel Symposia
+					NT18 Parallel Symposia
 				</h2>
 				<div class="StarText">
 					Six Satellite Symposia will take place during the conference on July 15th.
 				</div>
 				<ul class="StarName" style="line-height: 24px;font-size: 16px;">
 					<li>
-					<strong style="color: #555555">CCTN18:</strong>
+						<strong style="color: #555555">CCTN18:</strong>
 						<a href="#CCTN18">
 						13<sup>th</sup> International Symposium on Computational Challenges and Tools for Nanotubes</a>
 					</li>
 					<li>
-						<a href="#MSIN18">
+						
 						<strong style="color: #555555 ">MSIN18:</strong>
+						<a href="#MSIN18">
 						12<sup>th</sup> International Workshop on Metrology, Standardization and Industrial Quality of Nanotubes</a>
 					</li>
 					<li>
-						<a href="#GSS18">
+						
 						<strong style="color: #555555 ">GSS18:</strong>
+						<a href="#GSS18">
 						9<sup>th</sup> Graphene and 2D Materials Symposium </a>
 					</li>
 					<li>
-						<a href="#CNTFA18">
+						
 						<strong style="color: #555555 ">CNTFA18:</strong>
+						<a href="#CNTFA18">
 						6<sup>th</sup> Carbon Nanotube Thin Film Electronics and Applications Symposium</a>
 					</li>
 					<li>
-						<a href="#CNBMT18">
+						
 						<strong style="color: #555555 ">CNBMT18:</strong>
+						<a href="#CNBMT18">
 						9<sup>th</sup> Symposium on Carbon Nanomaterials Biology, Medicine & Toxicology</a>
 					</li>
 					<li>
-						<a href="#NMES18">
+						
 						<strong style="color: #555555 ">NMES18:</strong>
+						<a href="#NMES18">
 						1<sup>st</sup> International Workshop on Nanocarbon Materials for Energy and Sustainability</a>
 					</li>
 				</ul>
@@ -815,6 +895,51 @@
 				<p>
 				<table class="StarTextMix" border="0px">
 					<tbody>
+						<tr>
+						<td width="200px" nowrap><strong>Keynote Speaker:</strong></td>
+						<td width="550px" >&nbsp;</td>
+					</tr>
+					<tr>
+						<td>Walt de Heer</td>
+						<td class="StarTitle">(Title of talk: to be announced)</td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+					</tr>
+					<tr>
+						<td><strong>Invited Speaker:</strong></td>
+						<td class="StarTitle">&nbsp;</td>
+					</tr>
+					<tr>
+						<td>Jong-Hyun Ahn</td>
+						<td class="StarTitle">(Title of talk: to be announced)</td>
+					</tr>
+					<tr>
+						<td>Ryo Kitaura</td>
+						<td class="StarTitle">(Title of talk: to be announced)</td>
+					</tr>
+					<tr>
+						<td>Lorenzo Sponza</td>
+						<td class="StarTitle">(Title of talk: to be announced)</td>
+					</tr>
+					<tr>
+						<td>Wencai Ren</td>
+						<td class="StarTitle">(Title of talk: to be announced)</td>
+					</tr>
+					<tr>
+						<td>Qihua Xiong</td>
+						<td class="StarTitle">(Title of talk: to be announced)</td>
+					</tr>
+					<tr>
+						<td>Shuyun Zhou</td>
+						<td class="StarTitle">(Title of talk: to be announced)</td>
+					</tr>
+					
+					<tr>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+					</tr>
 						<tr>
 							<td width="200px"><strong>Chief Organizer:</strong></td>
 							<td width="">Annick Loiseau</td>
