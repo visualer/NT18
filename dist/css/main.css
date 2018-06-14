@@ -677,3 +677,50 @@ textarea ul li {
 	text-decoration: underline;
 	color: blue;
 }
+
+.Registration {
+	color:#525252;
+	background-color:aliceblue;
+}
+
+.ParellelSymposia {
+	color:#525252;
+	background-color:blanchedalmond;
+}
+
+.Dinner {
+	color:#525252;
+	font-weight: bold;
+	background-color:#FFCAB8;
+}
+
+.Event {
+	color:#525252;
+	font-weight: bold;
+	background-color:#79CFFF;
+}
+
+.Keynote {
+	color: white;
+	background-color: #962121;
+}
+
+.Tutorial {
+	color:white;
+	background-color: #683D8C;
+}
+
+.Invited {
+	color: white;
+	background-color: darkcyan;
+}
+
+.Oral {
+	color:white;
+	background-color: forestgreen;
+}
+
+.Coffee {
+	color: white;
+	background-color:#B75022;
+}
