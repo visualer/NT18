@@ -72,6 +72,8 @@ function scroll_main(width, number) {
 
 function loadData(delay, id) {
 	"use strict";
+
+	
 	if (arguments.length === 1) { //should analyze the params
 		var href = window.location.href;
 		var param = href.split("#?");
@@ -82,11 +84,16 @@ function loadData(delay, id) {
 				id += p1[1];
 			}
 		}
+
 		//got valid id or just remains "load"
 		if (id === "load") {
 			id += "Index";
 		}
 	}
+	
+
+	
+	
 	//start page or invalid param transfer
 
 	var $article = $("article"),
@@ -103,19 +110,23 @@ function loadData(delay, id) {
 		$article.html($id.val());
 		var articleId = $article.attr("id");
 		$id.attr("id", "prevDiv");
+		
 		if ($prevDiv.length !== 0) { //prevDiv exists		
 			$prevDiv.attr("id", articleId);
 		}
 		$article.attr("id", id);
 
-	}
-
+	}	
 	//effects part
-
+	
 	if ($article.attr("id") === id) {
+
+		
 		$("html, body").animate({
 			scrollTop: 0
 		}, 300);
+		
+		
 		return;
 	}
 
@@ -128,6 +139,7 @@ function loadData(delay, id) {
 	} else {
 		afterLoad();
 	}
+
 }
 
 function panorama(divId, width, posID, povList, errDivId) {
