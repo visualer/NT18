@@ -165,6 +165,7 @@ sup {
   line-height: 0;
   position: relative;
   vertical-align: baseline;
+  padding-top: 3px;
 }
 
 sup {

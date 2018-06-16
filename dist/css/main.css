@@ -679,48 +679,55 @@ textarea ul li {
 }
 
 .Registration {
-	color:#525252;
-	background-color:aliceblue;
+	color:black;
+	background-color:#bfbfbf;
 }
 
 .ParellelSymposia {
-	color:#525252;
-	background-color:blanchedalmond;
+	color:black;
+	background-color:#ccecff;
 }
 
 .Dinner {
-	color:#525252;
-	font-weight: bold;
-	background-color:#FFCAB8;
+	color: black;
+	
+	background-color:#ff99ff;
 }
 
 .Event {
-	color:#525252;
+	color:black;
 	font-weight: bold;
-	background-color:#79CFFF;
+	background-color:#ccecff;
 }
 
 .Keynote {
 	color: white;
-	background-color: #962121;
+	background-color: #c00000;
 }
 
 .Tutorial {
 	color:white;
-	background-color: #683D8C;
+	background-color: #7030a0;
 }
 
 .Invited {
 	color: white;
-	background-color: darkcyan;
+	background-color: #0070c0;
 }
 
 .Oral {
 	color:white;
-	background-color: forestgreen;
+	background-color: #00b050;
 }
 
 .Coffee {
-	color: white;
-	background-color:#B75022;
+	color: black;
+	
+	background-color: #ffc000;
+}
+
+.Sponsor {
+	color:black;
+	
+	background-color: #92d050;
 }
