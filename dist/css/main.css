@@ -660,11 +660,8 @@ textarea ul li {
 	font-size: 16px;
 	color: #252525;
 }
-.StarTextMix table tbody td tr {
-	line-height: 20px;
-	font-size: 16px;
-	color: #252525;
-}
+
+
 .StarTitle {
 	color: #64429B;
 }
@@ -730,4 +727,13 @@ textarea ul li {
 	color:black;
 	
 	background-color: #92d050;
+}
+.ProgramTable {
+	text-align: center; font-size: 13px;font-family: Arial;font-weight: normal;
+	line-height: 18px;
+	color: #252525;
+}
+
+.ProgramTable tr td{
+	padding: 3px 0px;
 }
