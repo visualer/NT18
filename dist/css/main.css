@@ -197,27 +197,27 @@ nav ul li {
 nav {
 	align-content: center;
 }
-nav ul li:hover {
-	cursor: pointer;
+
+nav ul li{
 	transition: background-color ease 0.3s;
 	-moz-transition: background-color ease 0.3s;
 	-webkit-transition: background-color ease 0.3s;
 	-o-transition: background-color ease 0.3s;
+}
+
+nav ul li:hover {
+	cursor: pointer;
+	
 	background: #900000;
 	color: #fff;
 }
 nav ul li:hover > a {
-	transition: color ease 0.3s;
-	-moz-transition: color ease 0.3s;
-	-webkit-transition: color ease 0.3s;
-	-o-transition: color ease 0.3s;
+	
 	color: #fff;
 }
+
 nav ul li a:hover > strong {
-	transition: color ease 0.3s;
-	-moz-transition: color ease 0.3s;
-	-webkit-transition: color ease 0.3s;
-	-o-transition: color ease 0.3s;
+	
 	color: #fff;
 }
 nav ul li a {
@@ -230,6 +230,10 @@ nav ul li strong {
 	color: #900000;
 }
 nav ul ul {
+	transition: color ease 0.3s;
+	-moz-transition: color ease 0.3s;
+	-webkit-transition: color ease 0.3s;
+	-o-transition: color ease 0.3s;
 	width: auto;
 	z-index: 9;
 	background: #ffffff;
@@ -238,6 +242,10 @@ nav ul ul {
 	top: 100%;
 }
 nav ul ul li {
+	transition: color ease 0.3s;
+	-moz-transition: color ease 0.3s;
+	-webkit-transition: color ease 0.3s;
+	-o-transition: color ease 0.3s;
 	padding: 0;
 	float: none;
 	position: relative;
@@ -245,10 +253,7 @@ nav ul ul li {
 	border-right: 1px #900000 solid;
 }
 nav ul ul li:hover > a {
-	transition: color ease 0.3s;
-	-moz-transition: color ease 0.3s;
-	-webkit-transition: color ease 0.3s;
-	-o-transition: color ease 0.3s;
+	
 	background-color: #C90000;
 	color: #fff;
 }
@@ -740,4 +745,17 @@ textarea ul li {
 
 .StarTextMix tr td{
 	padding: 3px 0px;
+}
+.InnerTable tr td {
+	border-bottom: solid thin #6C6C6C;
+	line-height: 14px;
+}
+.StarTextMix a{
+	text-decoration: none;
+}
+.StarTextMix li{
+	list-style-type: none;
+}
+.StarTextMix{
+	margin: 0px;
 }

@@ -346,6 +346,7 @@ $(function () {
 });
 
 //to deal with th iphone bug that the nav can't work well when hover. by Stardust
+
 $(".subNav").mouseenter(function () {
 	"use strict";
 	$(this.children).css("display", "block");
