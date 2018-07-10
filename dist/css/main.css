@@ -541,6 +541,7 @@ article .note {
 }
 a,  a:visited {
 	text-decoration: underline;
+	color: blue;
 }
 a[href]:after {
 	content: " (" attr(href) ")";
@@ -602,9 +603,10 @@ textarea ul li {
 	font-size: 20px;
 	color: #252525;
 }
-.StarText a:link, .StarText a:visited {
-	color: #2F2F9E;
+.StarText a:link, .StarText a:visited ,.StarTextMix a:link, .StarTextMix a:visited , .StarTextMid a:link, .StarTextMid a:visited{
+	color: brown;
 }
+
 .StarTextNav td {
 	line-height: 40px;
 	font-size: 20px;
@@ -758,4 +760,16 @@ textarea ul li {
 }
 .StarTextMix{
 	margin: 0px;
+}
+
+.APP a strong{
+	color: brown;
+}
+
+.APP:hover a strong {
+	color: white;
+}
+
+.middle {
+	text-align: center;
 }

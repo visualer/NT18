@@ -86,22 +86,24 @@
 			<li>
 				<a href="#?load=SciProg" onclick="loadData(1, 'loadSciProg');">Scientific Program</a>
 			</li>
-			<li>
-				<a href="#?load=SocProg" onclick="loadData(1, 'loadSocProg');">Social Program</a>
-			</li>
+			
 			<li>
 				<a href="#?load=ParallelSymposia" onclick="loadData(1, 'loadParallelSymposia');">Parallel Symposia</a>
 			</li>
 
 		 -->
-						
+					
+				<li  class="APP"> <a href="APP/index.html"><strong>Conference APP</strong></a> </li>			
 				<li> <a href="#?load=Date" onclick="loadData(1, 'loadDate');">Important Dates</a> </li>
 				<li> <a href="#?load=Venue" onclick="loadData(1, 'loadVenue');">Venue</a> </li>
 				<li> <a href="#?load=Speakers" onclick="loadData(1, 'loadSpeakers');">Speakers</a> </li>
 				<li> <a href="#?load=SciProg" onclick="loadData(1, 'loadSciProg');">Scientific Program</a> </li>
 				<li> <a href="#?load=ParallelSymposia" onclick="loadData(1, 'loadParallelSymposia');">Parallel Symposia</a> </li>
-				<li> <a href="#?load=Reg" onclick="loadData(1, 'loadReg');">Registration and Payment</a> </li>
+				<li><a href="#?load=SocProg" onclick="loadData(1, 'loadSocProg');">Social Program</a></li>
 				<li> <a href="#?load=Abs" onclick="loadData(1, 'loadAbs');">Abstract Submission</a> </li>
+				<li> <a href="#?load=Reg" onclick="loadData(1, 'loadReg');">Registration and Payment</a> </li>
+				<li><a href="#?load=Accommodation" onclick="loadData(1, 'loadAccommodation');">Accommodation</a></li>
+				<li><a href="#?load=TravelInfo" onclick="loadData(1, 'loadTravelInfo');">Travel Information</a></li>
 				<li> <a href="#?load=Visa" onclick="loadData(1, 'loadVisa');">Visa Information</a> </li>
 				<li> <a href="#?load=Sponsors" onclick="loadData(1, 'loadSponsors');">Sponsors and Exhibitions</a> </li>
 				<!--       <li>
@@ -115,8 +117,7 @@
 				<a href="#?load=Newyear" onclick="loadData(1, 'loadNewyear');">Happy New Year</a>
 			</li>
 			 -->
-			 	<li><a href="#?load=Accommodation" onclick="loadData(1, 'loadAccommodation');">Accommodation</a></li>
-				<li><a href="#?load=TravelInfo" onclick="loadData(1, 'loadTravelInfo');">Travel Information</a></li>
+			 	
 				<li> <a href="#?load=Charter" onclick="loadData(1, 'loadCharter');">NT Charter</a> </li>
 				<li> <a href="#?load=Confer" onclick="loadData(1, 'loadConfer');">NT Conferences</a> </li>
 				<li> <a href="#?load=Committee" onclick="loadData(1, 'loadCommittee');">Committee</a> </li>
@@ -209,22 +210,32 @@
 			at the Centennial Lecture Hall of Peking University, Beijing, China.<br />
 			We are looking forward to your participation.
 		</p>
-		<p align="center">
+		<p align="center" style="margin-bottom: 0px;">
 			<strong>News</strong> <br>
 			Sumio Iijima and Rodney S. Ruoff will chair the Tutorial Talks.<br>
-			Poster Presenters should <a href="#?load=Abs" onclick="loadData(1, 'loadAbs');" style="text-decoration:none"><strong>submit your Poster Preview</strong></a> before <strong>July 1st</strong>.
+			The <a href="app/index.html" style="text-decoration: none"><strong>Conference APP</strong></a> is online！
 		</p>
-		<table  border="1" align="center" bordercolor="#FFFFFF">
+		<table border="1px" align="center" bordercolor="#FFFFFF">
 		  <tbody>
 			<tr class="StarTextNav">
-		  	  <td><a href="#?load=Abs" onclick="loadData(1, 'loadAbs');"><img src="img/icons/link.png" height="20px;">Poster</a></td>
-		  	  <td><a href="#?load=SciProg" onclick="loadData(1, 'loadSciProg');"><img src="img/icons/link.png" height="20px;">Program</a></td>
-			  <!--<td><a href="http://nt18.medmeeting.org/Useren/contribute/6728"><img src="img/icons/link.png" height="20px;">Submission</a></td> -->
-			  <td><a href="http://meeting.yizhifubj.com.cn/web/index.action?meetingId=410"><img src="img/icons/link.png" height="20px;">Registration</a></td>
-			  <td><a href="doc/4thAnnouncement.pdf"><img src="img/icons/pdfs.png" height="20px;">4th Announcement</a></td>
+	  	 	  <td><a href="doc/ConferenceBook.pdf"><img src="img/icons/pdfs.png" height="20px;">Conference Book</a></td>
+		  	  <td><a href="doc/NT18AbstractsBook.pdf"><img src="img/icons/pdfs.png" height="20px;">Abstracts Book</a></td>
+		  	  <td><a href="#?load=Abs" onclick="loadData(1, 'loadAbs');"><img src="img/icons/link.png" height="20px;">Poster Session</a></td>
+		  	    
 			</tr>
 		  </tbody>
 		</table>
+		<table border="1px" align="center" bordercolor="#FFFFFF">
+		  <tbody>
+			<tr class="StarTextNav">
+  	 	  	  <td><a href="#?load=Reg" onclick="loadData(1, 'loadReg');"><img src="img/icons/link.png" height="20px;">Registration</a></td>	
+	  	 	  <td><a href="#?load=SolProg" onclick="loadData(1, 'loadSolProg');"><img src="img/icons/pdfs.png" height="20px;">Social Program</a></td>
+	  	 	  <td><a href="#?load=Venue" onclick="loadData(1, 'loadVenue');"><img src="img/icons/link.png" height="20px;">Maps</a></td>	
+		  	  
+			</tr>
+		  </tbody>
+		</table>
+		
 		<br>
 		<div class="slider">
 			<ul>
@@ -472,7 +483,8 @@
 		
 		
 <!-- NEW PROGRAM-->
-	<p>	
+	<p>
+		<span class="StarTextMix">You may download the <a href="doc/ConferenceBook.pdf"><strong>Conference Book</strong></a> to get more details.</span><br>
 		<table class="ProgramTable" border="2px">
 		<tbody>
 				<tr>
@@ -495,7 +507,7 @@
 				<tr>
 						<td>09:00-09:15</td>
 						
-						<td class="ParellelSymposia" rowspan="33"><strong>Parallel<br>Symposia</strong><br><br>CCTN18<br>MSIN18<br>CNTFA18<br>GSS18<br>CNBMT18<br>NMES18</td>
+						<td class="ParellelSymposia" rowspan="33"><a href="#?load=ParallelSymposia" onClick="loadData(1,'loadParallelSymposia')" style="text-decoration: none"><strong>Parallel<br>Symposia</strong><br><br>CCTN18<br>MSIN18<br>CNTFA18<br>GSS18<br>CNBMT18<br>NMES18</a></td>
 						<td class="Event" rowspan="2"><strong>Opening</strong></td>
 						<td class="Keynote" rowspan="3"><strong>Keynote 2</strong><br>Klaus<br>Müllen</td>
 						<td class="Keynote" rowspan="3"><strong>Keynote 3</strong><br>Laurent<br>Cognet</td>
@@ -1122,38 +1134,62 @@
 	</textarea>
 <textarea id="loadSocProg" style="display: none;">
 				<h2>
-					Forbidden City
+					Social Program
 				</h2>
-				<ul class="StarText" style="font-size: 20px;">
-					<li>
-					<p>The Forbidden City was the Chinese imperial palace from the Ming dynasty to the end of the Qing dynasty—the years 1420 to 1912. It is in the center of Beijing, China, and now houses the Palace Museum. It served as the home of emperors and their households as well as the ceremonial and political center of Chinese government for almost 500 years.</p>
-					<p>Constructed from 1406 to 1420, the complex consists of 980 buildings and covers 72 ha (over 180 acres). The palace complex exemplifies traditional Chinese palatial architecture, and has influenced cultural and architectural developments in East Asia and elsewhere. The Forbidden City was declared a World Heritage Site in 1987, and is listed by UNESCO as the largest collection of preserved ancient wooden structures in the world.</p>
-					<p>Since 1925 the Forbidden City has been under the charge of the Palace Museum, whose extensive collection of artwork and artefacts were built upon the imperial collections of the Ming and Qing dynasties. Part of the museum's former collection is now in the National Palace Museum in Taipei. Both museums descend from the same institution, but were split after the Chinese Civil War. Since 2012, the Forbidden City has seen an average of 15 million visitors annually, and had 16 millions visitors in 2016.</p>
-					</li>
-						<img src="img\SocialProgram\Gugong.jpg" />
-					<li><a href="http://en.dpm.org.cn/">Click here to learn more.</a></li>
-				</ul>
-
-				<h2>
-					The National Museum of China
-				</h2>
-				<ul class="StarText" style="font-size: 20px;">
-					<li>
-					<p>The National Museum of China (NMC) is located at the east side of Tiananmen Square, opposite the Great Hall of the People. It was founded in February 2003, based on the merging of two previous museums, namely the National Museum of Chinese History and the National Museum of Chinese Revolution. NMC, an integrated national museum under the Ministry of Culture of China, draws equally from both history and art and is dedicated to its collections, exhibitions, research, archeology, public education and cultural communication. Its basic functions are collections of cultural relics and artworks, exhibitions, public education, history and art research and cultural communication.
-					</p>
-					<p>The predecessor of the Museum of Chinese History was the Preparatory Office of the Museum of Chinese History, founded on July 9, 1912. Upon the founding of the People's Republic of China on Oct 1st , 1949, the museum was renamed the Beijing Museum of History, only to be renamed once again as the National Museum of Chinese History in 1959. The predecessor of the Museum of Chinese Revolution was the Preparatory Office of the National Revolution Museum, which was founded in March, 1950 and was given its current name ten years later. In August 1959, with the completion of a new building on the east side of Tiananmen Square, and this housed both museums; it was acclaimed as one of the Ten Great Constructions built to celebrate the tenth anniversary of the People’s Republic of China. On Oct 1st of that same year, the two museums opened to the public.
-					</p>
-					<p>We hold leading within China, first-class externally as our main objective, people foremost as a principle of development, honest to reality, close to life, friendly to the people as a value, and talent, collection, academics and services as the key points in running the museum. It is of great importance to preserve, inherit, display, and develop the magnificent Chinese culture. Meanwhile, as the most important cultural and art institution in China, NMC not only displays China’s outstanding civilization achievements, but also those of other parts of the world.
-					</p>
-					<p>To support the public cultural service system and satisfy the learning needs of the community, we strive to promote the historical and cultural knowledge of the general public, in particular young people, while working to nurture civilization and facilitate life-long learning in the cultural sphere and in the classroom.
-					</p>
-					<p>NMC plays an important role in displaying Chinese culture, cultivating national spirit; as such it is a world leader amongst museums in developing the field of cultural relics.
-					</p>
-					<p>From March, 2007 to December, 2010, NMC carried out a project to expand the museum so that it now covers 192,000 square meters. Today NMC is the largest museum in the world, with first class facilities and capabilities. With more than forty halls, we have exhibitions of Ancient China and The Road to Rejuvenation on regular display and more than a dozen categories of display related to special exhibitions and international exchange exhibitions. Not only has the museum amassed five thousand years of Chinese art and cultural heritage, the museum itself attests to the long road to revival and provides high-quality exhibitions which reflect the fruits of this world civilization.</p>
-					</li>
-					<img src="img\SocialProgram\Guobo.jpg" />
-					<li><a href="http://en.chnmuseum.cn/">Click here to learn more.</a></li>
-				</ul>
+				<h3>Compus Tour</h3>
+				<p class="StarTextMix">
+					<table border="1px" align="center" bordercolor="#FFFFFF">
+					  <tbody>
+						<tr class="StarTextNav">
+						  <td><a href="https://www.wjx.top/jq/25855478.aspx"><img src="img/icons/link.png" height="20px;">Sign Up for Compus Tour</a></td>
+						</tr>
+					  </tbody>
+					</table>
+					<br>
+					If you plan to join one of the courses of campus tour in the evenings of Monday, Tuesday and Thursday, please sign up in advance <a href="https://www.wjx.top/jq/25855478.aspx"><strong>online</strong></a> before 0:00 July 16th  Beijing Time. You can also sign up at the Information Desk during the conference. It's on a first-come first-served basis.  In case of thunderstorm or heavy rain, the campus tour will be canceled.<br>
+					Please gather in the Square in front of the South Gate of PKU Centennial Lecture Hall. The campus tour team will departure at 18:30, 18:45 and 19:00, respectively. Please follow the directions by our volunteers.<br>
+					<br>
+					<div class="middle"><img src="img/tour.jpg" width="300px"></div>
+				</p>
+				<hr>
+				<h3>Conference T-shirts</h3>
+				<p class="StarTextMix">
+					Conference T-shirts have been designed. We will find the NT18 logo on the front and a dog picking lanterns on the back. The dog stands for chinese Dog Year while the lanterns decorated with nanotubes means "carbon nanotubes light the future". There are six colors in total (blue, red, black, white, grey, yellow) with different sizes. <br>
+					You may buy the T-shirts while registration or at the information desk during the conference.
+					<br>
+					<div class="middle"><img src="img/Tshirt.jpg" width="500px"></div>
+				</p>
+				<hr>
+				<h3>Welcome Reception</h3>
+				<p class="StarTextMix">
+					The welcome Reception will be held in Time Western Restaurant, 2<sup>nd</sup> floor of Bldg. 2, Zhongguanyuan Global Village on 17:30-19:30, July 15<sup>th</sup> after the Parallel Symposia.<br>
+					<br>
+					<div class="middle"><img src="img/Cups.jpg" width="300px"></div>
+				</p>
+				<hr>
+				<h3>Excursion</h3>
+				<p class="StarTextMix">
+					<strong>Forbidden City</strong><br>
+					The Forbidden City was the Chinese imperial palace from the Ming dynasty to the end of the Qing dynasty—the years 1420 to 1912. It is in the center of Beijing, China, and now houses the Palace Museum. It served as the home of emperors and their households as well as the ceremonial and political center of Chinese government for almost 500 years.
+					<div class="middle"><br><img src="img\SocialProgram\Gugong.jpg" width="300px"></div><br>
+					<a href="http://en.dpm.org.cn/">Click here to learn more.</a>
+				</p>
+				<p class="StarTextMix">
+					<strong>The National Museum of China</strong><br>
+				
+					The National Museum of China (NMC) is located at the east side of Tiananmen Square, opposite the Great Hall of the People. It was founded in February 2003, based on the merging of two previous museums, namely the National Museum of Chinese History and the National Museum of Chinese Revolution. NMC, an integrated national museum under the Ministry of Culture of China, draws equally from both history and art and is dedicated to its collections, exhibitions, research, archeology, public education and cultural communication. Its basic functions are collections of cultural relics and artworks, exhibitions, public education, history and art research and cultural communication.
+					
+					<div class="middle"><br><img src="img\SocialProgram\Guobo.jpg" width="300px"></div><br>
+					<a href="http://en.chnmuseum.cn/">Click here to learn more.</a>
+				</p>
+				<hr>
+				<h3>Conference Banquet</h3>
+				<p class="StarTextMix">
+					The conference banquet will be held after the excursion in Juying Hall, Friendship Palace, Beijing Friendship Hotel on 18:00-20:30，July 18<sup>th</sup>.<br>
+					For people who go to the excursion, the bus will take you to the banquet venue directly. For other people, please gather at the lobby of Bldg. 1, Zhongguanyuan Global Village by 17:20. There will be buses taking you to the banquet venue.<br>
+					<br>
+					<div class="middle"><img src="img/Banquet.jpg" width="300px"></div>
+				</p>
 		   </textarea>
 
 <!--loadParallelSymposia-->
@@ -1191,7 +1227,7 @@
 									<tr><td class="Keynote" height="69px;" width="96px"><strong>Keynote</strong><br>Sumio Iijima</td></tr>
 									<tr><td class="Invited" height="54px;" style="border-bottom: thin #515151  solid"><strong>Invited</strong><br>Chouwu Zhou</td></tr>
 									<tr><td class="Invited" height="54px;" style="line-height: 14px"><strong>Invited</strong><br>Michael S. Arnold</td></tr>
-									<tr><td class="Coffee" height="40px">Coffee Break</td></tr>
+									<tr><td class="Coffee" height="40px">Coffee Break<br>Poster</td></tr>
 								</tbody>
 							</table>	
 						</td>
@@ -1238,7 +1274,7 @@
 							<table class = "InnerTable" style="margin: -3px 0px;">
 								<tbody>
 									<tr><td class="Invited" height="31px;" width="100px"><strong>Invited</strong><br>Anyuan Cao</td></tr>
-									<tr><td class="Coffee"  height="31px">Coffee Break</td></tr>
+									<tr><td class="Coffee"  height="31px">Coffee Break<br>Poster</td></tr>
 									<tr><td class="Invited" height="31px;"><strong>Invited</strong><br>Suguru Noda</td></tr>
 									<tr><td class="Invited" height="31px;"><strong>Invited</strong><br>Yuan Chen</td></tr>
 									<tr><td class="Invited" height="31px;">Chen Zhang &amp;<br>Quanhong Yang</td></tr>
@@ -1262,11 +1298,11 @@
 				<tr>
 						
 						<td>10:30-10:45</td>
-						<td class="Coffee" rowspan="2">Coffee Break</td>
-						<td class="Coffee" rowspan="2">Coffee Break</td>
-						<td class="Coffee" rowspan="2">Coffee Break</td>
+						<td class="Coffee" rowspan="2">Coffee Break<br>Poster</td>
+						<td class="Coffee" rowspan="2">Coffee Break<br>Poster</td>
+						<td class="Coffee" rowspan="2">Coffee Break<br>Poster</td>
 						
-						<td class="Coffee" rowspan="2">Coffee Break</td>
+						<td class="Coffee" rowspan="2">Coffee Break<br>Poster</td>
 						
 				</tr>
 				<tr>
@@ -1363,7 +1399,7 @@
 									<tr><td class="Invited" height="30px;"><strong>Invited</strong><br>Jiaqi Huang</td></tr>
 									<tr><td class="Invited" height="30px;"><strong>Invited</strong><br>Vitalii Sysoev</td></tr>
 									<tr><td class="Invited" height="30px;"><strong>Invited</strong><br>Feng Li</td></tr>
-									<tr><td class="Coffee"  height="30px">Coffee Break</td></tr>
+									<tr><td class="Coffee"  height="30px">Coffee Break<br>Poster</td></tr>
 									<tr><td class="Invited" height="30px;"><strong>Invited</strong><br>Tanja Kallio</td></tr>
 									<tr><td class="Invited" height="30px;"><strong>Invited</strong><br>Kaiping Tai</td></tr>
 									<tr><td class="Invited" height="30px;"><strong>Invited</strong><br>Xu Hou</td></tr>
@@ -1397,7 +1433,7 @@
 				</tr>
 				<tr>
 						<td>14:45-15:00</td>
-						<td class="Oral">R. Gillen</td>
+						<td class="Oral">Q. Lu</td>
 						
 						<td class="Invited" rowspan="2"><strong>Invited</strong><br>Wencai Ren</td>
 						
@@ -1417,7 +1453,7 @@
 				<tr>
 						
 						<td>15:15-15:30</td>
-						<td class="Oral">M. Ohfuchi</td>
+						<td class="Oral">A. Li</td>
 						
 						<td class="Oral">V. Shanov</td>
 						
@@ -1429,17 +1465,17 @@
 						<td class="Oral">T. H. Nguyen</td>
 						<td class="Oral">E. Gaufres</td>
 						<td class="Oral">Y. Wu</td>
-						<td class="Coffee" rowspan="2">Coffee Break</td>
+						<td class="Coffee" rowspan="2">Coffee Break<br>Poster</td>
 						<td class="Oral">N. Komatsu</td>
 						
 				</tr>
 				<tr>
 						<td>15:45-16:00</td>
-						<td class="Coffee" rowspan="2">Coffee Break</td>
-						<td class="Coffee" rowspan="2">Coffee Break</td>
-						<td class="Coffee" rowspan="2">Coffee Break</td>
+						<td class="Coffee" rowspan="2">Coffee Break<br>Poster</td>
+						<td class="Coffee" rowspan="2">Coffee Break<br>Poster</td>
+						<td class="Coffee" rowspan="2">Coffee Break<br>Poster</td>
 						
-						<td class="Coffee" rowspan="2">Coffee Break</td>
+						<td class="Coffee" rowspan="2">Coffee Break<br>Poster</td>
 								
 				</tr>
 				
@@ -2507,7 +2543,7 @@
 		  <tbody>
 			<tr class="StarTextNav">
 			  <td><a href="http://nt18.medmeeting.org/Useren/contribute/6728"><img src="img/icons/link.png" height="20px;">Submission System</a></td>
-			  <td><a href="doc/Your_Poster_Number.pptx"><img src="img/icons/ppt.png" height="20px;">Poster Preview Template</a></td>
+			  <td><a href="doc/NT18AbstractsBook.pdf"><img src="img/icons/pdfs.png" height="20px;">Abstacts Book</a></td>
 			  <td><a href="doc/NT18PosterSample.pptx"><img src="img/icons/ppt.png" height="20px;">Poster Sample</a></td>
 			</tr>
 		  </tbody>
@@ -2515,8 +2551,63 @@
 		<h2>
 			Poster
 		</h2>
-			<p class="StarTextMix">Please login the <a href="http://nt18.medmeeting.org/Useren/contribute/6728">submission system</a> to confirm if your abstract is accepted. If accepted, it is time for you to upload the poster preview now and start preparing your poster. <br>
+			<p class="StarTextMix">
+			<strong>Making Your Poster:</strong><br>
+			1. The size of your poster for NT18 should be in 120cm height and 90cm width. Please ensure that your poster is not larger than that.<br>
+			2. <a href="doc/NT18PosterSample.pptx">The poster sample</a> is recommended but not compulsive.<br>
+			3. We have email you the poster number (only for main conference, posters of parallel symposia are not included), if you do not receive it, contact us soon.<br>
+			4. We only provide the boards, so you should print the poster by yourself.<br>
 			</p>
+			<br>
+			
+			<p class="StarTextMix">
+			<strong>Poster Presentations:</strong><br>
+			The poster sessions will be presented at the Art Gallery, 2<sup>nd</sup> floor of the PKU Centennial Lecture Hall. Adhesive materials will be available on site.<br>
+			All posters are classified into four categories: PS, PC, PA, and PO (see Table below). All PS and PC posters are scheduled to put up on Tuesday morning and presented on Tuesday and Wednesday. All PA and PO posters are scheduled to put up on Thursday morning and presented on Thursday and Friday.<br>
+			<table border="3px" align="center" style="text-align: center;margin: 9px;">
+				<tbody class="StarTextMix">
+					<tr style="font-weight: bold">
+						<td width="90px">Poster<br>Session</td>
+						<td width="100px">Topics</td>
+						<td width="200px">Poster Preview<br>Session</td>
+						<td width="135px">Put Up Time</td>
+						<td width="110px">Onboard<br>Time</td>
+					</tr>
+					<tr>
+						<td>PS</td>
+						<td>S1,S2,S3</td>
+						<td>Odd in 1 &amp; Even in 2</td>
+						<td>08:30 on 17<sup>th</sup></td>
+						<td>17<sup>th</sup>-18<sup>th</sup></td>
+					</tr>
+					<tr>
+						<td>PC</td>
+						<td>C1,C2</td>
+						<td>Odd in 1 &amp; Even in 2</td>
+						<td>08:30 on 17<sup>th</sup></td>
+						<td>17<sup>th</sup>-18<sup>th</sup></td>
+					</tr>
+					<tr>
+						<td>PA</td>
+						<td>A1,A2</td>
+						<td>Odd in 3 &amp; Even in 4</td>
+						<td>08:30 on 19<sup>th</sup></td>
+						<td>19<sup>th</sup>-20<sup>th</sup></td>
+					</tr>
+					<tr>
+						<td>PO</td>
+						<td>A3,A4,T,I,O</td>
+						<td>Odd in 3 &amp; Even in 4</td>
+						<td>08:30 on 19<sup>th</sup></td>
+						<td>19<sup>th</sup>-20<sup>th</sup></td>
+					</tr>
+				</tbody>
+			</table>
+			Note: T stands for Theory and Simulation, I stands for Scale-up for Industrialization Mass production, standardization, and O stands for Other Related Topics. You can view <a href="#?load=SciProg" onClick="loadData(1,'loadSciProg')"><strong>Scientific Program</strong></a> to learn more details about presenting time and the topics.
+			</p>
+		
+			
+			<br>
 			<p class="StarTextMix">
 			<strong>Uploading the Poster Preview:</strong><br>
 			1. Login the <a href="http://nt18.medmeeting.org/Useren/contribute/6728">submission system</a> and click "Abstract Status".<br>
@@ -2528,13 +2619,7 @@
 			7. The Poster Preview Session is only for the Main Conference. You need not do it for the abstract of Parallel Symposia.
 			</p>
 			
-			<p class="StarTextMix">
-			<strong>Preparing the Poster:</strong><br>
-			1. The size of your poster for NT18 should be in 120cm height and 90cm width. Please ensure that your poster is not larger than that.<br>
-			2. <a href="doc/NT18PosterSample.pptx">The poster sample</a> is recommended but not compulsive.<br>
-			3. We have email you the poster number (only for main conference, posters of parallel symposia are not included), if you do not receive it, contact us soon.<br>
-			4. We only provide the panels, so you should print the poster by yourself.<br>
-			</p>
+			
 		<hr>
 		<h2>
 			Awards
