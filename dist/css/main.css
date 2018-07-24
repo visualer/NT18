@@ -773,3 +773,8 @@ textarea ul li {
 .middle {
 	text-align: center;
 }
+
+.StarName {
+	font-size: 16px;
+	line-height: 23px;
+}
